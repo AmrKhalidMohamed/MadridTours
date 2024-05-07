@@ -14,6 +14,10 @@ class TourResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
+        // Assuming you have a relationship defined in your Tours model to fetch images
+        // Adjust the relationship name accordingly if it's different
+        $images = $this->images()->pluck('image_path')->toArray();
+
         return [
             'id' => $this->id,
             'title' => $this->title,
@@ -24,6 +28,7 @@ class TourResource extends JsonResource
             'description' => $this->description,
             'ArDescription' => $this->ArDescription,
             'discount' => $this->discount,
+            'images' => $images,
         ];
     }
 }

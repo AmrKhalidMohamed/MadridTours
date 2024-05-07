@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Resources\TourResource;
 use App\Models\Tours;
+use App\Models\Images;
 
 class ToursController extends Controller
 {
@@ -13,6 +14,7 @@ class ToursController extends Controller
      */
     public function index()
     {
+        $tours = Tours::with('images')->get();
         return TourResource::collection(Tours::all());
     }
 
