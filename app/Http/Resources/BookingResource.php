@@ -18,6 +18,7 @@ class BookingResource extends JsonResource
             'id' => $this->id,
             'customer_id' => $this->customer_id,
             'tour_id' => $this->tour_id,
+            'status' => $this->status,
             'booking_date' => $this->booking_date,
         ];
     }

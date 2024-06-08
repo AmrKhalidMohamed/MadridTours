@@ -40,9 +40,9 @@ class ToursController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Tours $room)
+    public function show(Tours $tour)
     {
-        return new TourResource($room);
+        return new TourResource($tour);
     }
 
     /**

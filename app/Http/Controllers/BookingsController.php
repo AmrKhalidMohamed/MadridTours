@@ -39,6 +39,7 @@ class BookingsController extends Controller
         $booking = Bookings::create([
             'customer_id' => $request->customer_id,
             'tour_id' => $request->tour_id,
+            'status' => $request->status,
             'booking_date' => $request->booking_date,
         ]);
         return new BookingResource($booking);
@@ -60,6 +61,7 @@ class BookingsController extends Controller
         $booking->update([
             'customer_id' => $request->customer_id,
             'tour_id' => $request->tour_id,
+            'status' => $request->status,
             'booking_date' => $request->booking_date,
         ]);
 

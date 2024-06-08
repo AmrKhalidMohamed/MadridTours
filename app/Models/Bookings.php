@@ -12,6 +12,7 @@ class Bookings extends Model
     protected $fillable = [
         'customer_id',
         'tour_id',
+        'status',
         'booking_date',
     ];
 }

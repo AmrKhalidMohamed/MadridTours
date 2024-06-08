@@ -29,6 +29,7 @@
                                             <option value="internal">Internal</option>
                                             <option value="external">External</option>
                                             <option value="religious">Religious</option>
+                                            <option value="offer">Offer</option>
                                         </select>
                                     </div>
                                 </div>

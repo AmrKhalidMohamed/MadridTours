@@ -9,10 +9,10 @@ class BookingQuery {
     protected $safeParms = [
         'id' => ['eq', 'gt', 'lt'],
         'customer_id' => ['eq', 'gt', 'lt'],
-        'room_id' => ['eq', 'gt', 'lt'],
+        'tour_id' => ['eq', 'gt', 'lt'],
+        'status' => ['eq', 'gt', 'lt'],
         'booking_date' => ['eq', 'gt', 'lt'],
-        'start_time' => ['eq', 'gt', 'lt'],
-        'end_time' => ['eq', 'gt', 'lt'],
+
     ];
     protected $operatorMap = [
         'eq' => '=',

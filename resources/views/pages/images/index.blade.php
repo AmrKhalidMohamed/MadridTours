@@ -30,7 +30,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <label>Chose file</label>
-                                    <x-text-input type="file" class="form-control" name="image">
+                                    <x-text-input type="file" class="form-control " name="image">
                                     </x-text-input>
                                 </div>
                                 <div class="col-md-6">

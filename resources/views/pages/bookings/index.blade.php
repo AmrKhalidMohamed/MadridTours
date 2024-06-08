@@ -41,10 +41,18 @@
                                     </x-text-input>
                                 </div>
                                 <div>
-                                    <label class="block mb-1">Room ID</label>
-                                    <x-text-input type="number" class="form-input w-full" name="room_id">
+                                    <label class="block mb-1">Tour ID</label>
+                                    <x-text-input type="number" class="form-input w-full" name="tour_id">
                                     </x-text-input>
                                 </div>
+                                <div>
+                                    <label class="block mb-1">Status</label>
+                                        <select id="type" class="w-full border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 focus:border-green-500 dark:focus:border-green-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm" name="status">
+                                            <option value="pending">pending</option>
+                                            <option value="active">active</option>
+                                            <option value="canceled">canceled</option>
+                                        </select>
+                                    </div>
                                 <div>
                                     <label class="block mb-1">Booking date</label>
                                     <x-text-input type="date" class="form-input w-full" name="booking_date">
@@ -65,6 +73,7 @@
                         <th class="text-white">#</th>
                         <th class="text-white">Customer ID</th>
                         <th class="text-white">Tour ID</th>
+                        <th class="text-white">Status</th>
                         <th class="text-white">Booking date</th>
                         <th class="text-white">Actions</th>
                     </tr>
@@ -78,6 +87,7 @@
                             <a href="{{ route('customersview.edit', ['customer' => $booking->customer_id]) }}" class="ml-2 btn btn-outline-success">show</a>
                         </td>
                         <td class="text-white">{{ $booking->tour_id }}</td>
+                        <td class="text-white">{{ $booking->status }}</td>
                         <td class="text-white">{{ $booking->booking_date }}</td>
                         <td class="text-white">
                             <a href="{{ route('bookingsview.edit', $booking->id) }}" class="btn btn-success btn-sm">

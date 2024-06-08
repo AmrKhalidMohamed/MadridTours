@@ -25,6 +25,14 @@
                                     </x-text-input>
                                 </div>
                                 <div>
+                                    <label class="block mb-1">Status</label>
+                                        <select id="status" value="{{ $booking->status }}" class="w-full border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 focus:border-green-500 dark:focus:border-green-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm" name="status">
+                                            <option value="pending">pending</option>
+                                            <option value="active">active</option>
+                                            <option value="canceled">canceled</option>
+                                        </select>
+                                    </div>
+                                <div>
                                     <label class="block mb-1">Booking date</label>
                                     <x-text-input type="date" class="form-input w-full" name="booking_date" value="{{ $booking->booking_date }}">
                                     </x-text-input>
