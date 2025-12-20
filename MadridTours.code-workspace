@@ -1,9 +1,9 @@
 {
-	"folders": [
-		{
-			"name": "MadridTours",
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+	{
+		"name": "MadridTours",
+		"path": "."
+	}
+],
+  "settings": {}
 }
