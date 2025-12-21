@@ -21,14 +21,15 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::resource("/customersview", CustomerViewController::class);
+Route::resource("/customersview", CustomerViewController::class)->except(['edit', 'update']);
 Route::get('/customers/{customer}/edit', [CustomerViewController::class, 'edit'])->name('customersview.edit');
 Route::post('/customersview/{id}', [CustomerViewController::class, 'update'])->name('customersview.update');
-Route::resource("/bookingsview", BookingViewController::class);
+
+Route::resource("/bookingsview", BookingViewController::class)->except(['update']);
 Route::post('/bookingsview/{id}', [BookingViewController::class, 'update'])->name('bookingsview.update');
-Route::resource("/toursview", TourViewController::class);
+
+Route::resource("/toursview", TourViewController::class)->except(['update']);
 Route::post('/toursview/{id}', [TourViewController::class, 'update'])->name('toursview.update');
-Route::resource("/imagesview", ImageViewController::class);
 
 
 require __DIR__.'/auth.php';
