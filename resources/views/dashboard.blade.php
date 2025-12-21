@@ -12,7 +12,7 @@
                     <a href="{{ route('bookingsview.index') }}" class="btn btn-success">
                         Bookings
                     </a>
-                    <a  href="{{ route('customersview.index') }}" class="btn btn-success">
+                    <a href="{{ route('customersview.index') }}" class="btn btn-success">
                         Customers
                     </a>
                     <a href="{{ route('toursview.index') }}" class="btn btn-success">

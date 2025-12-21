@@ -31,5 +31,8 @@ Route::post('/bookingsview/{id}', [BookingViewController::class, 'update'])->nam
 Route::resource("/toursview", TourViewController::class)->except(['update']);
 Route::post('/toursview/{id}', [TourViewController::class, 'update'])->name('toursview.update');
 
+Route::resource("/imagesview", ImageViewController::class)->except(['update']);
+Route::post('/imagesview/{id}', [ImageViewController::class, 'update'])->name('imagesview.update');
 
-require __DIR__.'/auth.php';
+
+require __DIR__ . '/auth.php';
