@@ -15,6 +15,12 @@ services:
         value: https://YOUR-APP-NAME.onrender.com
       - key: DB_CONNECTION
         value: sqlite
+      - key: ADMIN_NAME
+        value: Amr
+      - key: ADMIN_EMAIL
+        value: amrkfawzy@gmail.com
+      - key: ADMIN_PASSWORD
+        value: 787898787899
       - key: SESSION_DRIVER
         value: file
       - key: CACHE_STORE

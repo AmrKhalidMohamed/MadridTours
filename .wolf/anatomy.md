@@ -149,10 +149,10 @@
 
 ## database/seeders/
 
-- `AdminSeeder.php` — Run the database seeds. (~128 tok)
+- `AdminSeeder.php` — Idempotent verified admin bootstrap seeder (~128 tok)
 - `BookingsSeeder.php` — Run the database seeds. (~185 tok)
 - `CustomersSeeder.php` — Run the database seeds. (~158 tok)
-- `DatabaseSeeder.php` — Seed the application's database. (~122 tok)
+- `DatabaseSeeder.php` — Seeds the verified admin bootstrap account (~122 tok)
 - `ToursSeeder.php` — Run the database seeds. (~226 tok)
 
 ## public/

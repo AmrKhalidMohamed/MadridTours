@@ -51,12 +51,12 @@ RUN touch /var/www/html/database/database.sqlite \
 RUN echo '<VirtualHost *:10000>\n\
     DocumentRoot /var/www/html/public\n\
     <Directory /var/www/html/public>\n\
-        AllowOverride All\n\
-        Require all granted\n\
+    AllowOverride All\n\
+    Require all granted\n\
     </Directory>\n\
     ErrorLog ${APACHE_LOG_DIR}/error.log\n\
     CustomLog ${APACHE_LOG_DIR}/access.log combined\n\
-</VirtualHost>' > /etc/apache2/sites-available/laravel.conf
+    </VirtualHost>' > /etc/apache2/sites-available/laravel.conf
 
 RUN a2dissite 000-default.conf \
     && a2ensite laravel.conf
@@ -66,10 +66,10 @@ RUN sed -i 's/Listen 80/Listen 10000/' /etc/apache2/ports.conf
 
 # Startup script
 RUN echo '#!/bin/bash\n\
-set -e\n\
-php artisan config:cache\n\
-php artisan migrate --force\n\
-apache2-foreground' > /start.sh \
+    set -e\n\
+    php artisan config:cache\n\
+    php artisan migrate --force --seed\n\
+    apache2-foreground' > /start.sh \
     && chmod +x /start.sh
 
 EXPOSE 10000

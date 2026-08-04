@@ -39,6 +39,26 @@
             "related_bugs": ["bug-001"],
             "occurrences": 1,
             "last_seen": "2026-08-04T19:26:00Z"
+        },
+        {
+            "id": "bug-003",
+            "timestamp": "2026-08-04T19:45:00Z",
+            "error_message": "Dashboard could not be accessed because the admin user was missing or unverified in the users table, so there was no login to add data through the UI.",
+            "file": "database/seeders/AdminSeeder.php",
+            "root_cause": "The admin seeder existed but was not part of the deploy startup flow, and the dashboard route requires a verified authenticated user. A reset SQLite database could therefore boot without any usable dashboard account.",
+            "fix": "Made AdminSeeder idempotent, ensured it creates a verified admin user, wired DatabaseSeeder to call it, and updated the container startup command to run migrations with --seed.",
+            "tags": [
+                "auth",
+                "seed",
+                "dashboard",
+                "render",
+                "sqlite",
+                "verified-user",
+                "bootstrapping"
+            ],
+            "related_bugs": ["bug-002"],
+            "occurrences": 1,
+            "last_seen": "2026-08-04T19:45:00Z"
         }
     ]
 }

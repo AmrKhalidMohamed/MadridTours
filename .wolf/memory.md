@@ -45,6 +45,7 @@
 
 ## Session: 2026-08-04 22:13
 
-| Time             | Action                                    | File(s)                               | Outcome                                                                                  | ~Tokens |
-| ---------------- | ----------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------- | ------- |
-| 2026-08-04 19:26 | Fixed Render startup DB connection casing | config/database.php, config/queue.php | `DB_CONNECTION=SQLite` now resolves to `sqlite`; deploy migration path validated locally | ~220    |
+| Time             | Action                                    | File(s)                                                                                        | Outcome                                                                                                    | ~Tokens |
+| ---------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------- |
+| 2026-08-04 19:26 | Fixed Render startup DB connection casing | config/database.php, config/queue.php                                                          | `DB_CONNECTION=SQLite` now resolves to `sqlite`; deploy migration path validated locally                   | ~220    |
+| 2026-08-04 19:45 | Restored dashboard bootstrap account      | database/seeders/AdminSeeder.php, database/seeders/DatabaseSeeder.php, Dockerfile, render.yaml | Deploy now seeds a verified admin user automatically, so the dashboard is reachable after a reset database | ~260    |

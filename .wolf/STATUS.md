@@ -11,17 +11,18 @@
 - Fixed `trustProxies()` call order in `bootstrap/app.php` (Laravel 11) — `php artisan serve` now boots. `trustProxies()` must come before `withMiddleware()`/`withExceptions()`.
 - Fixed missing Bootstrap/Tailwind styling on all `@vite` pages (dashboard, login, register, customers/tours/bookings/images). Root cause: stale `public/hot` file left from a crashed Vite dev server run; Laravel pointed `@vite` at `http://[::1]:5173/` which never loaded. Removed the stale file; pages now use built assets in `public/build/manifest.json`.
 - Fixed Render startup failure caused by mixed-case `DB_CONNECTION` values. `config/database.php` and `config/queue.php` now lowercase the connection name before Laravel resolves it.
+- Fixed dashboard lockout after database resets. Deploy startup now runs `migrate --seed`, and `AdminSeeder` creates a verified admin account if it is missing.
 
 ---
 
 ## 🚀 Next phase
 
-**Goal:** Verify the Render deploy reaches `apache2-foreground` without the migration step failing.
+**Goal:** Confirm the container boots with a seeded admin login and reaches `apache2-foreground` cleanly.
 
 ### Acceptance criteria
 
-1. Deploy startup completes `php artisan config:cache` and `php artisan migrate --force` without a database connection error.
-2. The app remains configured for SQLite on Render and still boots locally.
+1. Deploy startup completes `php artisan config:cache` and `php artisan migrate --force --seed` without a database connection error.
+2. The dashboard is reachable with the seeded verified admin account after a fresh database boot.
 
 ### Files to create / edit
 
@@ -32,6 +33,7 @@
 ### Closed decisions
 
 - Render can continue using SQLite for this app; startup code now tolerates case variations in the `DB_CONNECTION` value.
+- The admin login is bootstrapped by seed data instead of manual dashboard entry.
 
 ### Open decisions
 

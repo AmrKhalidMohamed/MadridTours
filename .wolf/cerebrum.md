@@ -23,6 +23,7 @@
 - [2026-08-04] Do not treat `ApplicationBuilder::trustProxies()` as an ordering issue in Laravel 11. This builder has no such method; configure trusted proxies through the `withMiddleware()` callback or omit the call. Verify framework APIs before proposing a chain-order fix.
 - [2026-08-04] When Vite-managed CSS appears missing, inspect `public/hot` and the rendered asset URLs before changing CSS imports. A stale marker can point Laravel at an inactive Vite server.
 - [2026-08-04] Normalize `DB_CONNECTION` to lowercase before config resolution when deploy envs may supply mixed-case values. Laravel connection names are case-sensitive.
+- [2026-08-04] If the dashboard requires `verified` authentication, seed a verified admin account during deploy/startup; an unseeded or unverified user row will lock you out even when migrations succeed.
 
 ## Decision Log
 
