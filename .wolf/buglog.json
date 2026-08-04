@@ -12,6 +12,30 @@
       "related_bugs": [],
       "occurrences": 1,
       "last_seen": "2026-08-04T16:40:00Z"
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-08-04T19:17:16Z",
+      "error_message": "Render deploy failed at startup with: Database connection [SQLite] not configured.",
+      "file": "config/database.php",
+      "root_cause": "The app used DB_CONNECTION directly as the Laravel connection name. On Render, the environment value can arrive with different casing, which does not match Laravel's lowercase connection keys.",
+      "fix": "Normalized DB_CONNECTION to lowercase in config/database.php and the related database-backed queue config so startup migration and queue metadata resolve the sqlite connection correctly.",
+      "tags": ["render", "deploy", "database", "sqlite", "case-sensitive-env", "laravel"],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-08-04T19:17:16Z"
+    },
+    {
+      "id": "bug-003",
+      "timestamp": "2026-08-04T19:27:40Z",
+      "error_message": "Render deploy failed again with: Database connection [SQLite] not configured.",
+      "file": "Dockerfile",
+      "root_cause": "The runtime environment still exposed an uppercase DB_CONNECTION value when the container started, so Laravel received the bad connection name before migrations ran.",
+      "fix": "Lowercased DB_CONNECTION in the startup script before config caching and migrations, ensuring the app always boots with the sqlite connection name.",
+      "tags": ["render", "deploy", "startup", "docker", "sqlite", "env"],
+      "related_bugs": ["bug-002"],
+      "occurrences": 1,
+      "last_seen": "2026-08-04T19:27:40Z"
     }
   ]
 }

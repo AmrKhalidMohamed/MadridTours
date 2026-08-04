@@ -37,3 +37,5 @@
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+| 22:17 | Normalized Render database connection names to lowercase and verified the config with a PHP harness | config/database.php, config/queue.php | Render startup migration failure addressed | ~350 |
+| 22:27 | Hardened the Docker startup script to lowercase DB_CONNECTION before Laravel boots | Dockerfile | Render runtime env casing addressed | ~200 |

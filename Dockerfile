@@ -67,6 +67,7 @@ RUN sed -i 's/Listen 80/Listen 10000/' /etc/apache2/ports.conf
 # Startup script
 RUN echo '#!/bin/bash\n\
 set -e\n\
+export DB_CONNECTION="$(printf "%s" "${DB_CONNECTION:-sqlite}" | tr "[:upper:]" "[:lower:]")"\n\
 php artisan config:cache\n\
 php artisan migrate --force\n\
 apache2-foreground' > /start.sh \
