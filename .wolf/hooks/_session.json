@@ -1,0 +1,78 @@
+{
+  "session_id": "session-2026-08-04-1702",
+  "started": "2026-08-04T14:02:25.334Z",
+  "files_read": {
+    "C:/xampp/htdocs/MadridTours/resources/views/pages/bookings/index.blade.php": {
+      "count": 3,
+      "tokens": 1618,
+      "first_read": "2026-08-04T14:15:33.727Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/dashboard.blade.php": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-04T14:16:49.014Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/pages/tours/index.blade.php": {
+      "count": 1,
+      "tokens": 1956,
+      "first_read": "2026-08-04T14:16:49.167Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/pages/tours/edit.blade.php": {
+      "count": 1,
+      "tokens": 1315,
+      "first_read": "2026-08-04T14:19:54.074Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/pages/customers/edit.blade.php": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-04T14:19:54.089Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/pages/bookings/edit.blade.php": {
+      "count": 1,
+      "tokens": 782,
+      "first_read": "2026-08-04T14:19:54.211Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/pages/images/index.blade.php": {
+      "count": 1,
+      "tokens": 946,
+      "first_read": "2026-08-04T14:19:54.240Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/profile/edit.blade.php": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-04T14:23:22.996Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/views/layouts/guest.blade.php": {
+      "count": 1,
+      "tokens": 312,
+      "first_read": "2026-08-04T14:23:23.137Z"
+    },
+    "C:/xampp/htdocs/MadridTours/resources/css/app.css": {
+      "count": 1,
+      "tokens": 18,
+      "first_read": "2026-08-04T15:12:08.994Z"
+    },
+    "C:/xampp/htdocs/MadridTours/composer.json": {
+      "count": 1,
+      "tokens": 582,
+      "first_read": "2026-08-04T15:27:39.298Z"
+    },
+    "C:/xampp/htdocs/MadridTours/.env.example": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-08-04T15:29:51.357Z"
+    },
+    "C:/xampp/htdocs/MadridTours/Procfile": {
+      "count": 1,
+      "tokens": 10,
+      "first_read": "2026-08-04T15:31:35.260Z"
+    }
+  },
+  "files_written": [],
+  "edit_counts": {},
+  "anatomy_hits": 8,
+  "anatomy_misses": 1,
+  "repeated_reads_warned": 2,
+  "cerebrum_warnings": 0,
+  "stop_count": 5
+}

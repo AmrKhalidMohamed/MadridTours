@@ -1,0 +1,4657 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-08-03T17:57:08.165Z",
+    "fileCount": 516,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "f85298437e5e9b94dc91c757baf797df88256c4bc76d89b73c770182edcc80b3",
+    "storeUpdatedAt": "2026-08-03T17:57:08.168Z"
+  },
+  "files": {
+    ".claude/commands/reframe.md": {
+      "description": "Mode: migrate [framework]",
+      "tokens": 551,
+      "hash": "17a75695be5d4629",
+      "size": 2221,
+      "mtimeMs": 1785779827910.92,
+      "updatedAt": "2026-08-03T17:57:07.921Z",
+      "source": "scan"
+    },
+    ".claude/commands/security-audit.md": {
+      "description": "Layer 1 — Dependencies",
+      "tokens": 510,
+      "hash": "e6f7e0b7337c9c86",
+      "size": 2060,
+      "mtimeMs": 1785779827908.9185,
+      "updatedAt": "2026-08-03T17:57:07.922Z",
+      "source": "scan"
+    },
+    ".claude/rules/openwolf.md": {
+      "description": "",
+      "tokens": 328,
+      "hash": "6d735b2c1c54a916",
+      "size": 1323,
+      "mtimeMs": 1785779827708.0327,
+      "updatedAt": "2026-08-03T17:57:07.924Z",
+      "source": "scan"
+    },
+    ".claude/settings.json": {
+      "description": "",
+      "tokens": 514,
+      "hash": "f68759bb50af5ee4",
+      "size": 1799,
+      "mtimeMs": 1785779827706.5908,
+      "updatedAt": "2026-08-03T17:57:07.925Z",
+      "source": "scan"
+    },
+    ".cmd": {
+      "description": "",
+      "tokens": 22,
+      "hash": "7a58203f77185710",
+      "size": 82,
+      "mtimeMs": 1751280747722.879,
+      "updatedAt": "2026-08-03T17:57:07.927Z",
+      "source": "scan"
+    },
+    ".editorconfig": {
+      "description": "Editor configuration",
+      "tokens": 69,
+      "hash": "d9a5756ca5adea55",
+      "size": 258,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.927Z",
+      "source": "scan"
+    },
+    ".gitattributes": {
+      "description": "Git attributes",
+      "tokens": 50,
+      "hash": "a40eb27ee0b545ca",
+      "size": 186,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.927Z",
+      "source": "scan"
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 61,
+      "hash": "6f3dfc366ddbe9b6",
+      "size": 227,
+      "mtimeMs": 1717904277852.2844,
+      "updatedAt": "2026-08-03T17:57:07.928Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/AuthenticatedSessionController.php": {
+      "description": "Display the login view.",
+      "tokens": 277,
+      "hash": "aaea7217b1eeeaa0",
+      "size": 1038,
+      "mtimeMs": 1714225677993.3828,
+      "updatedAt": "2026-08-03T17:57:07.928Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/ConfirmablePasswordController.php": {
+      "description": "Show the confirm password view.",
+      "tokens": 274,
+      "hash": "7322ce4e2ccdf76d",
+      "size": 1024,
+      "mtimeMs": 1714225677994.382,
+      "updatedAt": "2026-08-03T17:57:07.929Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/EmailVerificationNotificationController.php": {
+      "description": "Send a new email verification notification.",
+      "tokens": 168,
+      "hash": "24d5704b7534ad36",
+      "size": 630,
+      "mtimeMs": 1714225677997.3816,
+      "updatedAt": "2026-08-03T17:57:07.929Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/EmailVerificationPromptController.php": {
+      "description": "Display the email verification prompt.",
+      "tokens": 151,
+      "hash": "6b5b4b75fc25c43c",
+      "size": 564,
+      "mtimeMs": 1714225677997.3816,
+      "updatedAt": "2026-08-03T17:57:07.929Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/NewPasswordController.php": {
+      "description": "Display the password reset view.",
+      "tokens": 584,
+      "hash": "fb639cf4ba91c761",
+      "size": 2188,
+      "mtimeMs": 1714225677998.3816,
+      "updatedAt": "2026-08-03T17:57:07.930Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/PasswordController.php": {
+      "description": "Update the user's password.",
+      "tokens": 212,
+      "hash": "81f68e0aa74f6603",
+      "size": 795,
+      "mtimeMs": 1714225677998.3816,
+      "updatedAt": "2026-08-03T17:57:07.930Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/PasswordResetLinkController.php": {
+      "description": "Display the password reset link request view.",
+      "tokens": 351,
+      "hash": "d77bc40b74a6ba2a",
+      "size": 1315,
+      "mtimeMs": 1714225677998.3816,
+      "updatedAt": "2026-08-03T17:57:07.930Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/RegisteredUserController.php": {
+      "description": "Display the registration view.",
+      "tokens": 356,
+      "hash": "c7f2018c250a0ece",
+      "size": 1333,
+      "mtimeMs": 1714225677998.3816,
+      "updatedAt": "2026-08-03T17:57:07.930Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Auth/VerifyEmailController.php": {
+      "description": "Mark the authenticated user's email address as verified.",
+      "tokens": 214,
+      "hash": "5f6080a239709740",
+      "size": 800,
+      "mtimeMs": 1714225677999.3816,
+      "updatedAt": "2026-08-03T17:57:07.930Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/BookingsController.php": {
+      "description": "Display a listing of the resource.",
+      "tokens": 497,
+      "hash": "f15e90c9e6965cfe",
+      "size": 1863,
+      "mtimeMs": 1717809302730.8425,
+      "updatedAt": "2026-08-03T17:57:07.931Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/BookingViewController.php": {
+      "description": "Display a listing of the resource.",
+      "tokens": 528,
+      "hash": "530ef1257d0716de",
+      "size": 1977,
+      "mtimeMs": 1713666672674.4333,
+      "updatedAt": "2026-08-03T17:57:07.931Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/Controller.php": {
+      "description": "Controller: Controller",
+      "tokens": 21,
+      "hash": "25d1c1ef8e6cc8a3",
+      "size": 77,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.932Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/CustomersController.php": {
+      "description": "Display a listing of the resource.",
+      "tokens": 366,
+      "hash": "30b980d8cc9f3d1f",
+      "size": 1372,
+      "mtimeMs": 1712631952801.1077,
+      "updatedAt": "2026-08-03T17:57:07.932Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/CustomerViewController.php": {
+      "description": "Display a listing of the resource.",
+      "tokens": 488,
+      "hash": "6c815a56a9b59198",
+      "size": 1829,
+      "mtimeMs": 1713666192846.0718,
+      "updatedAt": "2026-08-03T17:57:07.932Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/ImageController.php": {
+      "description": "Display a listing of the resource.",
+      "tokens": 307,
+      "hash": "1ed746c037fd2268",
+      "size": 1148,
+      "mtimeMs": 1711977742626.473,
+      "updatedAt": "2026-08-03T17:57:07.932Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/ImageViewController.php": {
+      "description": "index, store, destroy",
+      "tokens": 378,
+      "hash": "ed8be1e24105192e",
+      "size": 1417,
+      "mtimeMs": 1714512887582.2883,
+      "updatedAt": "2026-08-03T17:57:07.933Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/ProfileController.php": {
+      "description": "Display the user's profile form.",
+      "tokens": 378,
+      "hash": "01586a456c9162ec",
+      "size": 1416,
+      "mtimeMs": 1714225677999.3816,
+      "updatedAt": "2026-08-03T17:57:07.933Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/ToursController.php": {
+      "description": "Display a listing of the resource.",
+      "tokens": 495,
+      "hash": "cf466766db62034e",
+      "size": 1853,
+      "mtimeMs": 1717681309257.8462,
+      "updatedAt": "2026-08-03T17:57:07.933Z",
+      "source": "scan"
+    },
+    "app/Http/Controllers/TourViewController.php": {
+      "description": "Display a listing of the resource.",
+      "tokens": 437,
+      "hash": "f751c8ae10f191e2",
+      "size": 1638,
+      "mtimeMs": 1714485047623.3357,
+      "updatedAt": "2026-08-03T17:57:07.934Z",
+      "source": "scan"
+    },
+    "app/Http/Requests/Auth/LoginRequest.php": {
+      "description": "Determine if the user is authorized to make this request.",
+      "tokens": 591,
+      "hash": "78616c034791029e",
+      "size": 2216,
+      "mtimeMs": 1714225678000.3813,
+      "updatedAt": "2026-08-03T17:57:07.934Z",
+      "source": "scan"
+    },
+    "app/Http/Requests/ProfileUpdateRequest.php": {
+      "description": "Get the validation rules that apply to the request.",
+      "tokens": 164,
+      "hash": "bc051edf117e9f42",
+      "size": 615,
+      "mtimeMs": 1714225678000.3813,
+      "updatedAt": "2026-08-03T17:57:07.934Z",
+      "source": "scan"
+    },
+    "app/Http/Requests/StoreBookingRequest.php": {
+      "description": "Determine if the user is authorized to make this request.",
+      "tokens": 260,
+      "hash": "6350d5dc4216bce9",
+      "size": 973,
+      "mtimeMs": 1714142100010.0051,
+      "updatedAt": "2026-08-03T17:57:07.935Z",
+      "source": "scan"
+    },
+    "app/Http/Requests/StoreCustomerRequest.php": {
+      "description": "Determine if the user is authorized to make this request.",
+      "tokens": 216,
+      "hash": "3cb1fd411c831ad6",
+      "size": 810,
+      "mtimeMs": 1711678303410.6582,
+      "updatedAt": "2026-08-03T17:57:07.935Z",
+      "source": "scan"
+    },
+    "app/Http/Requests/StoreImageRequest.php": {
+      "description": "Determine if the user is authorized to make this request.",
+      "tokens": 148,
+      "hash": "23deef3085b4b20e",
+      "size": 553,
+      "mtimeMs": 1711709974564.1394,
+      "updatedAt": "2026-08-03T17:57:07.935Z",
+      "source": "scan"
+    },
+    "app/Http/Resources/BookingResource.php": {
+      "description": "Transform the resource into an array.",
+      "tokens": 153,
+      "hash": "b46b77150f58892b",
+      "size": 572,
+      "mtimeMs": 1717809176008.5154,
+      "updatedAt": "2026-08-03T17:57:07.936Z",
+      "source": "scan"
+    },
+    "app/Http/Resources/CustomerResource.php": {
+      "description": "Transform the resource into an array.",
+      "tokens": 128,
+      "hash": "27e6d9a505b3fe9b",
+      "size": 479,
+      "mtimeMs": 1711201533795.325,
+      "updatedAt": "2026-08-03T17:57:07.936Z",
+      "source": "scan"
+    },
+    "app/Http/Resources/TourResource.php": {
+      "description": "Transform the resource into an array.",
+      "tokens": 265,
+      "hash": "2bb80785a1679809",
+      "size": 992,
+      "mtimeMs": 1715103396050.817,
+      "updatedAt": "2026-08-03T17:57:07.936Z",
+      "source": "scan"
+    },
+    "app/Models/Bookings.php": {
+      "description": "Model — 4 fields",
+      "tokens": 80,
+      "hash": "4ee52a6a13c907c9",
+      "size": 299,
+      "mtimeMs": 1717809206910.8875,
+      "updatedAt": "2026-08-03T17:57:07.936Z",
+      "source": "scan"
+    },
+    "app/Models/Customers.php": {
+      "description": "Model — table: customers, 2 fields",
+      "tokens": 78,
+      "hash": "2a50e9e7a5d3e1b2",
+      "size": 291,
+      "mtimeMs": 1711754556653.3796,
+      "updatedAt": "2026-08-03T17:57:07.937Z",
+      "source": "scan"
+    },
+    "app/Models/Images.php": {
+      "description": "Model — 2 fields, 1 rels",
+      "tokens": 94,
+      "hash": "2eb0012c7a983d4a",
+      "size": 350,
+      "mtimeMs": 1714224678628.691,
+      "updatedAt": "2026-08-03T17:57:07.937Z",
+      "source": "scan"
+    },
+    "app/Models/Tours.php": {
+      "description": "Model — 9 fields, 1 rels",
+      "tokens": 129,
+      "hash": "b926651effb110ef",
+      "size": 483,
+      "mtimeMs": 1714141024236.3596,
+      "updatedAt": "2026-08-03T17:57:07.937Z",
+      "source": "scan"
+    },
+    "app/Models/User.php": {
+      "description": "The attributes that are mass assignable.",
+      "tokens": 257,
+      "hash": "8f137ce0bec39806",
+      "size": 961,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.938Z",
+      "source": "scan"
+    },
+    "app/Providers/AppServiceProvider.php": {
+      "description": "Register any application services.",
+      "tokens": 119,
+      "hash": "d3a505e10379811b",
+      "size": 446,
+      "mtimeMs": 1766604333529.7742,
+      "updatedAt": "2026-08-03T17:57:07.938Z",
+      "source": "scan"
+    },
+    "app/Services/BookingQuery.php": {
+      "description": "BookingQuery: transform",
+      "tokens": 274,
+      "hash": "40302896f6ce5fe7",
+      "size": 1026,
+      "mtimeMs": 1717809414503.7085,
+      "updatedAt": "2026-08-03T17:57:07.938Z",
+      "source": "scan"
+    },
+    "app/View/Components/AppLayout.php": {
+      "description": "Get the view / contents that represents the component.",
+      "tokens": 79,
+      "hash": "c57c4ac36e5603ca",
+      "size": 296,
+      "mtimeMs": 1714225678013.3823,
+      "updatedAt": "2026-08-03T17:57:07.939Z",
+      "source": "scan"
+    },
+    "app/View/Components/GuestLayout.php": {
+      "description": "Get the view / contents that represents the component.",
+      "tokens": 80,
+      "hash": "35663740cd39dc5f",
+      "size": 300,
+      "mtimeMs": 1714225678014.3826,
+      "updatedAt": "2026-08-03T17:57:07.940Z",
+      "source": "scan"
+    },
+    "artisan": {
+      "description": "Laravel CLI entry point",
+      "tokens": 94,
+      "hash": "e313db8b935d646e",
+      "size": 350,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.940Z",
+      "source": "scan"
+    },
+    "bootstrap/app.php": {
+      "description": "",
+      "tokens": 149,
+      "hash": "4c0b74175ce98eea",
+      "size": 557,
+      "mtimeMs": 1714225357104.9355,
+      "updatedAt": "2026-08-03T17:57:07.940Z",
+      "source": "scan"
+    },
+    "bootstrap/cache/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 4,
+      "hash": "240a3e0d37d2e86b",
+      "size": 14,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.941Z",
+      "source": "scan"
+    },
+    "bootstrap/cache/packages.php": {
+      "description": "",
+      "tokens": 324,
+      "hash": "7b2934115e4b5bd0",
+      "size": 1212,
+      "mtimeMs": 1785779516919.647,
+      "updatedAt": "2026-08-03T17:57:07.941Z",
+      "source": "scan"
+    },
+    "bootstrap/cache/services.php": {
+      "description": "",
+      "tokens": 5627,
+      "hash": "0d86dc4ecf6ebc93",
+      "size": 21101,
+      "mtimeMs": 1785779516626.319,
+      "updatedAt": "2026-08-03T17:57:07.941Z",
+      "source": "scan"
+    },
+    "bootstrap/providers.php": {
+      "description": "",
+      "tokens": 18,
+      "hash": "2ef405f988a6ef3f",
+      "size": 64,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.942Z",
+      "source": "scan"
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 57,
+      "hash": "b1ca356fa9d5f3a6",
+      "size": 225,
+      "mtimeMs": 1785779827709.5037,
+      "updatedAt": "2026-08-03T17:57:07.943Z",
+      "source": "scan"
+    },
+    "composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 582,
+      "hash": "40a1ec5fefad050e",
+      "size": 2037,
+      "mtimeMs": 1714225596601.5835,
+      "updatedAt": "2026-08-03T17:57:07.943Z",
+      "source": "scan"
+    },
+    "config/app.php": {
+      "description": "",
+      "tokens": 1143,
+      "hash": "5a44387ebeedf16d",
+      "size": 4284,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.943Z",
+      "source": "scan"
+    },
+    "config/auth.php": {
+      "description": "",
+      "tokens": 1075,
+      "hash": "d5bd78db15ec31df",
+      "size": 4029,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.944Z",
+      "source": "scan"
+    },
+    "config/cache.php": {
+      "description": "",
+      "tokens": 914,
+      "hash": "09eb508c8e2451ce",
+      "size": 3427,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.944Z",
+      "source": "scan"
+    },
+    "config/cors.php": {
+      "description": "",
+      "tokens": 226,
+      "hash": "7a1b9af42b73b201",
+      "size": 846,
+      "mtimeMs": 1715392853571.5232,
+      "updatedAt": "2026-08-03T17:57:07.945Z",
+      "source": "scan"
+    },
+    "config/database.php": {
+      "description": "",
+      "tokens": 1625,
+      "hash": "4f3274dc6a385e9e",
+      "size": 6091,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.945Z",
+      "source": "scan"
+    },
+    "config/filesystems.php": {
+      "description": "",
+      "tokens": 632,
+      "hash": "bff539c1be02173e",
+      "size": 2370,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.945Z",
+      "source": "scan"
+    },
+    "config/logging.php": {
+      "description": "",
+      "tokens": 1150,
+      "hash": "d9929062d3dca43f",
+      "size": 4310,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.946Z",
+      "source": "scan"
+    },
+    "config/mail.php": {
+      "description": "Declares of",
+      "tokens": 906,
+      "hash": "d9ee44b165a1c208",
+      "size": 3395,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.946Z",
+      "source": "scan"
+    },
+    "config/queue.php": {
+      "description": "",
+      "tokens": 1020,
+      "hash": "a185a3e86b65db26",
+      "size": 3824,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.947Z",
+      "source": "scan"
+    },
+    "config/sanctum.php": {
+      "description": "",
+      "tokens": 799,
+      "hash": "a3bf731d55289ab9",
+      "size": 2994,
+      "mtimeMs": 1714225356885.3452,
+      "updatedAt": "2026-08-03T17:57:07.947Z",
+      "source": "scan"
+    },
+    "config/services.php": {
+      "description": "Declares of",
+      "tokens": 260,
+      "hash": "5c9ec9251e2396f1",
+      "size": 973,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.947Z",
+      "source": "scan"
+    },
+    "config/session.php": {
+      "description": "",
+      "tokens": 2094,
+      "hash": "d96b4c3d215ad3d0",
+      "size": 7852,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.948Z",
+      "source": "scan"
+    },
+    "database/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 3,
+      "hash": "e758642d95e83e90",
+      "size": 10,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.948Z",
+      "source": "scan"
+    },
+    "database/factories/UserFactory.php": {
+      "description": "Model factory: UserFactory",
+      "tokens": 287,
+      "hash": "05c4cfa8e4dc7ebe",
+      "size": 1075,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.949Z",
+      "source": "scan"
+    },
+    "database/migrations/0001_01_01_000000_create_users_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 393,
+      "hash": "10d79883bc08ce46",
+      "size": 1473,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.949Z",
+      "source": "scan"
+    },
+    "database/migrations/0001_01_01_000001_create_cache_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 227,
+      "hash": "20f769d3c11748c1",
+      "size": 849,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.950Z",
+      "source": "scan"
+    },
+    "database/migrations/0001_01_01_000002_create_jobs_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 484,
+      "hash": "7c9c712adf4091c8",
+      "size": 1812,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.950Z",
+      "source": "scan"
+    },
+    "database/migrations/2024_03_17_032809_create_customers_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 164,
+      "hash": "f9396f042ef08488",
+      "size": 615,
+      "mtimeMs": 1710646697097.459,
+      "updatedAt": "2026-08-03T17:57:07.950Z",
+      "source": "scan"
+    },
+    "database/migrations/2024_03_17_032822_create_tours_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 234,
+      "hash": "5c6e028a0d2898c8",
+      "size": 877,
+      "mtimeMs": 1717808296419.6292,
+      "updatedAt": "2026-08-03T17:57:07.951Z",
+      "source": "scan"
+    },
+    "database/migrations/2024_03_17_032854_create_bookings_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 212,
+      "hash": "dad2b2764c4cfdad",
+      "size": 793,
+      "mtimeMs": 1717808416024.7073,
+      "updatedAt": "2026-08-03T17:57:07.951Z",
+      "source": "scan"
+    },
+    "database/migrations/2024_03_29_031532_create_images_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 177,
+      "hash": "51eb6beef4849b61",
+      "size": 661,
+      "mtimeMs": 1714134368383.8635,
+      "updatedAt": "2026-08-03T17:57:07.951Z",
+      "source": "scan"
+    },
+    "database/migrations/2024_04_27_134237_create_personal_access_tokens_table.php": {
+      "description": "Run the migrations.",
+      "tokens": 229,
+      "hash": "5a9c64d94d29ec6c",
+      "size": 856,
+      "mtimeMs": 1714225356884.3457,
+      "updatedAt": "2026-08-03T17:57:07.952Z",
+      "source": "scan"
+    },
+    "database/seeders/AdminSeeder.php": {
+      "description": "Run the database seeds.",
+      "tokens": 128,
+      "hash": "70969da6803888d2",
+      "size": 478,
+      "mtimeMs": 1714225899478.1538,
+      "updatedAt": "2026-08-03T17:57:07.952Z",
+      "source": "scan"
+    },
+    "database/seeders/BookingsSeeder.php": {
+      "description": "Run the database seeds.",
+      "tokens": 185,
+      "hash": "0967242ff8c07a66",
+      "size": 693,
+      "mtimeMs": 1714134286491.366,
+      "updatedAt": "2026-08-03T17:57:07.952Z",
+      "source": "scan"
+    },
+    "database/seeders/CustomersSeeder.php": {
+      "description": "Run the database seeds.",
+      "tokens": 158,
+      "hash": "4f4324c9dc6705d3",
+      "size": 589,
+      "mtimeMs": 1710719666677.7166,
+      "updatedAt": "2026-08-03T17:57:07.953Z",
+      "source": "scan"
+    },
+    "database/seeders/DatabaseSeeder.php": {
+      "description": "Seed the application's database.",
+      "tokens": 122,
+      "hash": "03b392bf45ef0e52",
+      "size": 456,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.953Z",
+      "source": "scan"
+    },
+    "database/seeders/ToursSeeder.php": {
+      "description": "Run the database seeds.",
+      "tokens": 226,
+      "hash": "8297d1c1c74f08cf",
+      "size": 847,
+      "mtimeMs": 1714134158136.702,
+      "updatedAt": "2026-08-03T17:57:07.953Z",
+      "source": "scan"
+    },
+    "GEMINI.md": {
+      "description": "OpenWolf",
+      "tokens": 68,
+      "hash": "8c90778623bf50ac",
+      "size": 271,
+      "mtimeMs": 1785779827902.921,
+      "updatedAt": "2026-08-03T17:57:07.954Z",
+      "source": "scan"
+    },
+    "MadridTours.code-workspace": {
+      "description": "",
+      "tokens": 23,
+      "hash": "f1394b0600752b42",
+      "size": 84,
+      "mtimeMs": 1718716755703.0725,
+      "updatedAt": "2026-08-03T17:57:07.955Z",
+      "source": "scan"
+    },
+    "package-lock.json": {
+      "description": "npm lock file",
+      "tokens": 28358,
+      "hash": "e407834b0db15dd1",
+      "size": 99250,
+      "mtimeMs": 1766599195534.2183,
+      "updatedAt": "2026-08-03T17:57:07.968Z",
+      "source": "scan"
+    },
+    "package.json": {
+      "description": "Node.js package manifest",
+      "tokens": 135,
+      "hash": "93d870b990b8bc30",
+      "size": 471,
+      "mtimeMs": 1766599195501.6665,
+      "updatedAt": "2026-08-03T17:57:07.968Z",
+      "source": "scan"
+    },
+    "patch_routes.py": {
+      "description": "",
+      "tokens": 24,
+      "hash": "6fcc00340b5fda77",
+      "size": 83,
+      "mtimeMs": 1766340984170.861,
+      "updatedAt": "2026-08-03T17:57:07.971Z",
+      "source": "scan"
+    },
+    "phpunit.xml": {
+      "description": "",
+      "tokens": 341,
+      "hash": "e232db04f03301e1",
+      "size": 1191,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.975Z",
+      "source": "scan"
+    },
+    "postcss.config.js": {
+      "description": "PostCSS configuration",
+      "tokens": 27,
+      "hash": "c713dcb623f3a959",
+      "size": 93,
+      "mtimeMs": 1714225678032.3823,
+      "updatedAt": "2026-08-03T17:57:07.976Z",
+      "source": "scan"
+    },
+    "Procfile": {
+      "description": "",
+      "tokens": 10,
+      "hash": "de752fce31707192",
+      "size": 36,
+      "mtimeMs": 1766598470486.3809,
+      "updatedAt": "2026-08-03T17:57:07.978Z",
+      "source": "scan"
+    },
+    "public/.htaccess": {
+      "description": "Apache configuration",
+      "tokens": 161,
+      "hash": "42493ebc7bad9b95",
+      "size": 603,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.979Z",
+      "source": "scan"
+    },
+    "public/index.php": {
+      "description": "",
+      "tokens": 125,
+      "hash": "8e8554cc123b541f",
+      "size": 468,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.980Z",
+      "source": "scan"
+    },
+    "public/robots.txt": {
+      "description": "",
+      "tokens": 6,
+      "hash": "e5c4b84484ee4216",
+      "size": 24,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.981Z",
+      "source": "scan"
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 1028,
+      "hash": "44b83afe2178ca6f",
+      "size": 4109,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.982Z",
+      "source": "scan"
+    },
+    "resources/css/app.css": {
+      "description": "Styles: 3 rules",
+      "tokens": 18,
+      "hash": "7a8b07838661bed8",
+      "size": 62,
+      "mtimeMs": 1766600457809.4639,
+      "updatedAt": "2026-08-03T17:57:07.983Z",
+      "source": "scan"
+    },
+    "resources/js/app.js": {
+      "description": "",
+      "tokens": 59,
+      "hash": "9c9906ebec24da2b",
+      "size": 204,
+      "mtimeMs": 1766600464752.3271,
+      "updatedAt": "2026-08-03T17:57:07.985Z",
+      "source": "scan"
+    },
+    "resources/js/bootstrap.js": {
+      "description": "",
+      "tokens": 37,
+      "hash": "6fd9fc82e68fa915",
+      "size": 127,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:07.987Z",
+      "source": "scan"
+    },
+    "resources/views/auth/confirm-password.blade.php": {
+      "description": "Blade: 1 form(s), 5 component(s)",
+      "tokens": 242,
+      "hash": "73ef1f56a26a2db2",
+      "size": 905,
+      "mtimeMs": 1714225678001.3816,
+      "updatedAt": "2026-08-03T17:57:07.988Z",
+      "source": "scan"
+    },
+    "resources/views/auth/forgot-password.blade.php": {
+      "description": "Blade: 1 form(s), 6 component(s)",
+      "tokens": 267,
+      "hash": "13ce0909d1e43f1c",
+      "size": 1000,
+      "mtimeMs": 1714225678001.3816,
+      "updatedAt": "2026-08-03T17:57:07.989Z",
+      "source": "scan"
+    },
+    "resources/views/auth/login.blade.php": {
+      "description": "Blade: 1 form(s), 9 component(s)",
+      "tokens": 574,
+      "hash": "311e296d7cdc109d",
+      "size": 2152,
+      "mtimeMs": 1717550261988.5862,
+      "updatedAt": "2026-08-03T17:57:07.989Z",
+      "source": "scan"
+    },
+    "resources/views/auth/register.blade.php": {
+      "description": "Blade: 1 form(s), 14 component(s)",
+      "tokens": 603,
+      "hash": "96a142f5c0135f72",
+      "size": 2259,
+      "mtimeMs": 1714225678002.3816,
+      "updatedAt": "2026-08-03T17:57:07.989Z",
+      "source": "scan"
+    },
+    "resources/views/auth/reset-password.blade.php": {
+      "description": "Blade: 1 form(s), 11 component(s)",
+      "tokens": 439,
+      "hash": "5538223153ebf6c5",
+      "size": 1646,
+      "mtimeMs": 1714225678002.3816,
+      "updatedAt": "2026-08-03T17:57:07.990Z",
+      "source": "scan"
+    },
+    "resources/views/auth/verify-email.blade.php": {
+      "description": "Blade: 2 form(s), 2 component(s)",
+      "tokens": 363,
+      "hash": "ffa95c29e131a721",
+      "size": 1361,
+      "mtimeMs": 1714225678002.3816,
+      "updatedAt": "2026-08-03T17:57:07.990Z",
+      "source": "scan"
+    },
+    "resources/views/components/application-logo.blade.php": {
+      "description": "Blade: application-logo",
+      "tokens": 17,
+      "hash": "5fbd84c4a32237e5",
+      "size": 63,
+      "mtimeMs": 1714257958078.535,
+      "updatedAt": "2026-08-03T17:57:07.991Z",
+      "source": "scan"
+    },
+    "resources/views/components/auth-session-status.blade.php": {
+      "description": "Blade: auth-session-status",
+      "tokens": 48,
+      "hash": "2811f75584819908",
+      "size": 180,
+      "mtimeMs": 1714225678003.3833,
+      "updatedAt": "2026-08-03T17:57:07.991Z",
+      "source": "scan"
+    },
+    "resources/views/components/danger-button.blade.php": {
+      "description": "Blade: danger-button",
+      "tokens": 110,
+      "hash": "bc23914b3405181f",
+      "size": 412,
+      "mtimeMs": 1714225678004.382,
+      "updatedAt": "2026-08-03T17:57:07.991Z",
+      "source": "scan"
+    },
+    "resources/views/components/drop-down.blade.php": {
+      "description": "Blade: drop-down",
+      "tokens": 893,
+      "hash": "ce41ead704c7e98f",
+      "size": 3348,
+      "mtimeMs": 1714314389958.181,
+      "updatedAt": "2026-08-03T17:57:07.992Z",
+      "source": "scan"
+    },
+    "resources/views/components/dropdown-link.blade.php": {
+      "description": "Blade: dropdown-link",
+      "tokens": 76,
+      "hash": "20d46012fda371e8",
+      "size": 282,
+      "mtimeMs": 1714225678004.382,
+      "updatedAt": "2026-08-03T17:57:07.993Z",
+      "source": "scan"
+    },
+    "resources/views/components/dropdown.blade.php": {
+      "description": "Blade: dropdown",
+      "tokens": 370,
+      "hash": "67799a5450974f1f",
+      "size": 1386,
+      "mtimeMs": 1714258803959.0774,
+      "updatedAt": "2026-08-03T17:57:07.994Z",
+      "source": "scan"
+    },
+    "resources/views/components/input-error.blade.php": {
+      "description": "Blade: input-error",
+      "tokens": 70,
+      "hash": "c1f1ef324466c47f",
+      "size": 259,
+      "mtimeMs": 1714225678004.382,
+      "updatedAt": "2026-08-03T17:57:07.994Z",
+      "source": "scan"
+    },
+    "resources/views/components/input-label.blade.php": {
+      "description": "Blade: input-label",
+      "tokens": 44,
+      "hash": "b7cdf34d55a32ca6",
+      "size": 162,
+      "mtimeMs": 1714225678005.3818,
+      "updatedAt": "2026-08-03T17:57:07.995Z",
+      "source": "scan"
+    },
+    "resources/views/components/modal.blade.php": {
+      "description": "Blade: modal",
+      "tokens": 862,
+      "hash": "d8ba992448cb56fd",
+      "size": 3230,
+      "mtimeMs": 1714258815988.208,
+      "updatedAt": "2026-08-03T17:57:07.995Z",
+      "source": "scan"
+    },
+    "resources/views/components/nav-link.blade.php": {
+      "description": "Blade: nav-link",
+      "tokens": 217,
+      "hash": "6e29aa46d3c90f96",
+      "size": 812,
+      "mtimeMs": 1714486396237.4712,
+      "updatedAt": "2026-08-03T17:57:07.996Z",
+      "source": "scan"
+    },
+    "resources/views/components/primary-button.blade.php": {
+      "description": "Blade: primary-button",
+      "tokens": 135,
+      "hash": "95602e1210996897",
+      "size": 505,
+      "mtimeMs": 1717550407354.5298,
+      "updatedAt": "2026-08-03T17:57:07.996Z",
+      "source": "scan"
+    },
+    "resources/views/components/responsive-nav-link.blade.php": {
+      "description": "Blade: responsive-nav-link",
+      "tokens": 268,
+      "hash": "efbd9b03d6f2c49a",
+      "size": 1004,
+      "mtimeMs": 1714225678006.382,
+      "updatedAt": "2026-08-03T17:57:07.997Z",
+      "source": "scan"
+    },
+    "resources/views/components/secondary-button.blade.php": {
+      "description": "Blade: secondary-button",
+      "tokens": 133,
+      "hash": "869febc59aa3f64f",
+      "size": 496,
+      "mtimeMs": 1714258854323.918,
+      "updatedAt": "2026-08-03T17:57:07.997Z",
+      "source": "scan"
+    },
+    "resources/views/components/text-input.blade.php": {
+      "description": "Blade: text-input",
+      "tokens": 77,
+      "hash": "ff19392abb96a2e2",
+      "size": 288,
+      "mtimeMs": 1715382188753.447,
+      "updatedAt": "2026-08-03T17:57:07.997Z",
+      "source": "scan"
+    },
+    "resources/views/dashboard.blade.php": {
+      "description": "Blade: 2 component(s)",
+      "tokens": 299,
+      "hash": "5175d8b060aac104",
+      "size": 1120,
+      "mtimeMs": 1766357311553.0398,
+      "updatedAt": "2026-08-03T17:57:07.998Z",
+      "source": "scan"
+    },
+    "resources/views/layouts/app.blade.php": {
+      "description": "Blade: app",
+      "tokens": 334,
+      "hash": "869d6ce06dade011",
+      "size": 1251,
+      "mtimeMs": 1766599859579.325,
+      "updatedAt": "2026-08-03T17:57:07.998Z",
+      "source": "scan"
+    },
+    "resources/views/layouts/guest.blade.php": {
+      "description": "Blade: 1 component(s)",
+      "tokens": 312,
+      "hash": "caa8a5c9b1fb6377",
+      "size": 1169,
+      "mtimeMs": 1714258742639.1904,
+      "updatedAt": "2026-08-03T17:57:07.999Z",
+      "source": "scan"
+    },
+    "resources/views/layouts/navigation.blade.php": {
+      "description": "Blade: 2 form(s), 10 component(s)",
+      "tokens": 1406,
+      "hash": "b4b1588c10d73b5c",
+      "size": 5270,
+      "mtimeMs": 1714258664756.8833,
+      "updatedAt": "2026-08-03T17:57:08.000Z",
+      "source": "scan"
+    },
+    "resources/views/layouts/scripts.blade.php": {
+      "description": "Blade: scripts",
+      "tokens": 118,
+      "hash": "4a5e0b212bb31044",
+      "size": 440,
+      "mtimeMs": 1714258335064.7466,
+      "updatedAt": "2026-08-03T17:57:08.000Z",
+      "source": "scan"
+    },
+    "resources/views/pages/bookings/edit.blade.php": {
+      "description": "Blade: 1 form(s), 5 component(s)",
+      "tokens": 782,
+      "hash": "0804acd60574dbe2",
+      "size": 2931,
+      "mtimeMs": 1717811508054.7148,
+      "updatedAt": "2026-08-03T17:57:08.001Z",
+      "source": "scan"
+    },
+    "resources/views/pages/bookings/index.blade.php": {
+      "description": "Blade: 3 form(s), 1 table(s), 7 component(s)",
+      "tokens": 1618,
+      "hash": "ca634b032fc74972",
+      "size": 6064,
+      "mtimeMs": 1717810666762.3506,
+      "updatedAt": "2026-08-03T17:57:08.002Z",
+      "source": "scan"
+    },
+    "resources/views/pages/customers/edit.blade.php": {
+      "description": "Blade: 1 form(s), 5 component(s)",
+      "tokens": 571,
+      "hash": "14549c568068ef49",
+      "size": 2140,
+      "mtimeMs": 1714312635925.666,
+      "updatedAt": "2026-08-03T17:57:08.003Z",
+      "source": "scan"
+    },
+    "resources/views/pages/customers/index.blade.php": {
+      "description": "Blade: 2 form(s), 1 table(s), 4 component(s)",
+      "tokens": 896,
+      "hash": "722fcfc9379323db",
+      "size": 3358,
+      "mtimeMs": 1714311160437.5376,
+      "updatedAt": "2026-08-03T17:57:08.003Z",
+      "source": "scan"
+    },
+    "resources/views/pages/images/index.blade.php": {
+      "description": "Blade: 2 form(s), 1 table(s), 4 component(s)",
+      "tokens": 946,
+      "hash": "05a7025693a3e3b2",
+      "size": 3546,
+      "mtimeMs": 1715382166623.3296,
+      "updatedAt": "2026-08-03T17:57:08.004Z",
+      "source": "scan"
+    },
+    "resources/views/pages/tours/edit.blade.php": {
+      "description": "Blade: 1 form(s), 7 component(s)",
+      "tokens": 1315,
+      "hash": "ca4db1ae5ab212e7",
+      "size": 4928,
+      "mtimeMs": 1715119179661.961,
+      "updatedAt": "2026-08-03T17:57:08.004Z",
+      "source": "scan"
+    },
+    "resources/views/pages/tours/index.blade.php": {
+      "description": "Blade: 2 form(s), 1 table(s), 7 component(s)",
+      "tokens": 1956,
+      "hash": "c52d8c73764e237a",
+      "size": 7332,
+      "mtimeMs": 1715119099609.62,
+      "updatedAt": "2026-08-03T17:57:08.005Z",
+      "source": "scan"
+    },
+    "resources/views/profile/edit.blade.php": {
+      "description": "Blade: 2 component(s)",
+      "tokens": 271,
+      "hash": "2968a84f58d8e186",
+      "size": 1015,
+      "mtimeMs": 1714260059416.12,
+      "updatedAt": "2026-08-03T17:57:08.005Z",
+      "source": "scan"
+    },
+    "resources/views/profile/partials/delete-user-form.blade.php": {
+      "description": "Blade: 1 form(s), 7 component(s)",
+      "tokens": 591,
+      "hash": "2d0dc45e5b7b5af9",
+      "size": 2216,
+      "mtimeMs": 1714225678010.383,
+      "updatedAt": "2026-08-03T17:57:08.006Z",
+      "source": "scan"
+    },
+    "resources/views/profile/partials/update-password-form.blade.php": {
+      "description": "Blade: 1 form(s), 10 component(s)",
+      "tokens": 580,
+      "hash": "6528f124200fb125",
+      "size": 2175,
+      "mtimeMs": 1714225678011.384,
+      "updatedAt": "2026-08-03T17:57:08.006Z",
+      "source": "scan"
+    },
+    "resources/views/profile/partials/update-profile-information-form.blade.php": {
+      "description": "Blade: 2 form(s), 7 component(s)",
+      "tokens": 759,
+      "hash": "7783a52126583694",
+      "size": 2846,
+      "mtimeMs": 1714225678012.3826,
+      "updatedAt": "2026-08-03T17:57:08.006Z",
+      "source": "scan"
+    },
+    "resources/views/welcome.blade.php": {
+      "description": "Blade: welcome",
+      "tokens": 9424,
+      "hash": "9a0e77cbdad8ad27",
+      "size": 35338,
+      "mtimeMs": 1714260022685.6711,
+      "updatedAt": "2026-08-03T17:57:08.007Z",
+      "source": "scan"
+    },
+    "routes/api.php": {
+      "description": "",
+      "tokens": 193,
+      "hash": "6db2a36288713d3c",
+      "size": 722,
+      "mtimeMs": 1714225386144.6265,
+      "updatedAt": "2026-08-03T17:57:08.007Z",
+      "source": "scan"
+    },
+    "routes/auth.php": {
+      "description": "",
+      "tokens": 609,
+      "hash": "c4cbfd78659fc03a",
+      "size": 2281,
+      "mtimeMs": 1714864151681.2498,
+      "updatedAt": "2026-08-03T17:57:08.008Z",
+      "source": "scan"
+    },
+    "routes/console.php": {
+      "description": "",
+      "tokens": 59,
+      "hash": "7bff1ca950148533",
+      "size": 220,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.008Z",
+      "source": "scan"
+    },
+    "routes/web.php": {
+      "description": "",
+      "tokens": 451,
+      "hash": "a341f16102a9b01a",
+      "size": 1688,
+      "mtimeMs": 1766357119248.9783,
+      "updatedAt": "2026-08-03T17:57:08.008Z",
+      "source": "scan"
+    },
+    "routes_web.patch": {
+      "description": "",
+      "tokens": 16,
+      "hash": "58602bd9e549574c",
+      "size": 57,
+      "mtimeMs": 1766340912802.016,
+      "updatedAt": "2026-08-03T17:57:08.009Z",
+      "source": "scan"
+    },
+    "start.bat": {
+      "description": "",
+      "tokens": 30,
+      "hash": "507cbeafdc0d9741",
+      "size": 112,
+      "mtimeMs": 1751281807515.9092,
+      "updatedAt": "2026-08-03T17:57:08.010Z",
+      "source": "scan"
+    },
+    "storage/framework/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 32,
+      "hash": "2d452d6559663619",
+      "size": 119,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.011Z",
+      "source": "scan"
+    },
+    "storage/framework/cache/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 6,
+      "hash": "32f79194633ddb34",
+      "size": 21,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.012Z",
+      "source": "scan"
+    },
+    "storage/framework/cache/data/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 4,
+      "hash": "240a3e0d37d2e86b",
+      "size": 14,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.012Z",
+      "source": "scan"
+    },
+    "storage/framework/sessions/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 4,
+      "hash": "240a3e0d37d2e86b",
+      "size": 14,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.013Z",
+      "source": "scan"
+    },
+    "storage/framework/testing/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 4,
+      "hash": "240a3e0d37d2e86b",
+      "size": 14,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.013Z",
+      "source": "scan"
+    },
+    "storage/framework/views/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 4,
+      "hash": "240a3e0d37d2e86b",
+      "size": 14,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.013Z",
+      "source": "scan"
+    },
+    "storage/framework/views/66700e9a381478fb15b6a44242a3818a.php": {
+      "description": "",
+      "tokens": 9481,
+      "hash": "29efbfc33eddf335",
+      "size": 35553,
+      "mtimeMs": 1785779378120.1172,
+      "updatedAt": "2026-08-03T17:57:08.013Z",
+      "source": "scan"
+    },
+    "storage/logs/.gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 4,
+      "hash": "240a3e0d37d2e86b",
+      "size": 14,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.013Z",
+      "source": "scan"
+    },
+    "tailwind.config.js": {
+      "description": "Tailwind CSS configuration",
+      "tokens": 155,
+      "hash": "c57c50e5816a545c",
+      "size": 541,
+      "mtimeMs": 1714225678031.4036,
+      "updatedAt": "2026-08-03T17:57:08.014Z",
+      "source": "scan"
+    },
+    "tests/Feature/Auth/AuthenticationTest.php": {
+      "description": "AuthenticationTest: test_login_screen_can_be_rendered, test_users_can_authenticate_using_the_login_screen, test_users_can_not_authenticate_with_inv...",
+      "tokens": 339,
+      "hash": "08685bdecdf5c6c8",
+      "size": 1270,
+      "mtimeMs": 1714225678015.3823,
+      "updatedAt": "2026-08-03T17:57:08.014Z",
+      "source": "scan"
+    },
+    "tests/Feature/Auth/EmailVerificationTest.php": {
+      "description": "EmailVerificationTest: test_email_verification_screen_can_be_rendered, test_email_can_be_verified, test_email_is_not_verified_with_invalid_hash",
+      "tokens": 439,
+      "hash": "ee9fe6e9df4a6096",
+      "size": 1645,
+      "mtimeMs": 1714225678015.3823,
+      "updatedAt": "2026-08-03T17:57:08.014Z",
+      "source": "scan"
+    },
+    "tests/Feature/Auth/PasswordConfirmationTest.php": {
+      "description": "PasswordConfirmationTest: test_confirm_password_screen_can_be_rendered, test_password_can_be_confirmed, test_password_is_not_confirmed_with_invalid...",
+      "tokens": 289,
+      "hash": "255e0c8d39d61cde",
+      "size": 1082,
+      "mtimeMs": 1714225678016.3826,
+      "updatedAt": "2026-08-03T17:57:08.015Z",
+      "source": "scan"
+    },
+    "tests/Feature/Auth/PasswordResetTest.php": {
+      "description": "PasswordResetTest: test_reset_password_link_screen_can_be_rendered, test_reset_password_link_can_be_requested, test_reset_password_screen_can_be_re...",
+      "tokens": 532,
+      "hash": "f75bcd779ca08afd",
+      "size": 1992,
+      "mtimeMs": 1714225678017.3833,
+      "updatedAt": "2026-08-03T17:57:08.015Z",
+      "source": "scan"
+    },
+    "tests/Feature/Auth/PasswordUpdateTest.php": {
+      "description": "PasswordUpdateTest: test_password_can_be_updated, test_correct_password_must_be_provided_to_update_password",
+      "tokens": 376,
+      "hash": "b27324ba50657f96",
+      "size": 1409,
+      "mtimeMs": 1714225678017.3833,
+      "updatedAt": "2026-08-03T17:57:08.015Z",
+      "source": "scan"
+    },
+    "tests/Feature/Auth/RegistrationTest.php": {
+      "description": "RegistrationTest: test_registration_screen_can_be_rendered, test_new_users_can_register",
+      "tokens": 201,
+      "hash": "135a9aef837bcc12",
+      "size": 751,
+      "mtimeMs": 1714225678018.383,
+      "updatedAt": "2026-08-03T17:57:08.015Z",
+      "source": "scan"
+    },
+    "tests/Feature/ExampleTest.php": {
+      "description": "A basic test example.",
+      "tokens": 96,
+      "hash": "aaa4a192fb4aa96d",
+      "size": 359,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.015Z",
+      "source": "scan"
+    },
+    "tests/Feature/ProfileTest.php": {
+      "description": "ProfileTest: test_profile_page_is_displayed, test_profile_information_can_be_updated, test_email_verification_status_is_unchanged_when_the_email_ad...",
+      "tokens": 667,
+      "hash": "3138e455512864a4",
+      "size": 2501,
+      "mtimeMs": 1714225678018.383,
+      "updatedAt": "2026-08-03T17:57:08.016Z",
+      "source": "scan"
+    },
+    "tests/TestCase.php": {
+      "description": "Declares TestCase",
+      "tokens": 38,
+      "hash": "c7c209f5579c4264",
+      "size": 142,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.016Z",
+      "source": "scan"
+    },
+    "tests/Unit/ExampleTest.php": {
+      "description": "A basic test example.",
+      "tokens": 65,
+      "hash": "ffacae5c1a2a44c8",
+      "size": 243,
+      "mtimeMs": 1712639624000,
+      "updatedAt": "2026-08-03T17:57:08.016Z",
+      "source": "scan"
+    },
+    "vendor/autoload.php": {
+      "description": "autoload.php @generated by Composer",
+      "tokens": 206,
+      "hash": "2d3cabfdb49773f8",
+      "size": 771,
+      "mtimeMs": 1714185779878.0647,
+      "updatedAt": "2026-08-03T17:57:08.017Z",
+      "source": "scan"
+    },
+    "vendor/bin/carbon": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 888,
+      "hash": "bbf4e346ce47d51d",
+      "size": 3330,
+      "mtimeMs": 1714185776716.514,
+      "updatedAt": "2026-08-03T17:57:08.018Z",
+      "source": "scan"
+    },
+    "vendor/bin/carbon.bat": {
+      "description": "",
+      "tokens": 36,
+      "hash": "b37993b07d6d69d0",
+      "size": 133,
+      "mtimeMs": 1714185776716.514,
+      "updatedAt": "2026-08-03T17:57:08.019Z",
+      "source": "scan"
+    },
+    "vendor/bin/patch-type-declarations": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 916,
+      "hash": "fe851f81e57bb0b7",
+      "size": 3435,
+      "mtimeMs": 1714185776514.3018,
+      "updatedAt": "2026-08-03T17:57:08.020Z",
+      "source": "scan"
+    },
+    "vendor/bin/patch-type-declarations.bat": {
+      "description": "",
+      "tokens": 40,
+      "hash": "65bebe04937f7249",
+      "size": 150,
+      "mtimeMs": 1714185776514.5127,
+      "updatedAt": "2026-08-03T17:57:08.021Z",
+      "source": "scan"
+    },
+    "vendor/bin/php-parse": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 893,
+      "hash": "ce009acd363d1d66",
+      "size": 3348,
+      "mtimeMs": 1714185776908.521,
+      "updatedAt": "2026-08-03T17:57:08.021Z",
+      "source": "scan"
+    },
+    "vendor/bin/php-parse.bat": {
+      "description": "",
+      "tokens": 37,
+      "hash": "02ae1d682c88dc8a",
+      "size": 136,
+      "mtimeMs": 1714185776908.521,
+      "updatedAt": "2026-08-03T17:57:08.022Z",
+      "source": "scan"
+    },
+    "vendor/bin/phpunit": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 984,
+      "hash": "1fb9d47c7f192da0",
+      "size": 3689,
+      "mtimeMs": 1714185777368.5276,
+      "updatedAt": "2026-08-03T17:57:08.023Z",
+      "source": "scan"
+    },
+    "vendor/bin/phpunit.bat": {
+      "description": "",
+      "tokens": 36,
+      "hash": "218270d9b92607ee",
+      "size": 134,
+      "mtimeMs": 1714185777369.5276,
+      "updatedAt": "2026-08-03T17:57:08.024Z",
+      "source": "scan"
+    },
+    "vendor/bin/pint": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 888,
+      "hash": "6550374367378e01",
+      "size": 3330,
+      "mtimeMs": 1714185776187.5122,
+      "updatedAt": "2026-08-03T17:57:08.026Z",
+      "source": "scan"
+    },
+    "vendor/bin/pint.bat": {
+      "description": "",
+      "tokens": 35,
+      "hash": "5db23c0218ef4d96",
+      "size": 131,
+      "mtimeMs": 1714185776188.5127,
+      "updatedAt": "2026-08-03T17:57:08.027Z",
+      "source": "scan"
+    },
+    "vendor/bin/psysh": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 884,
+      "hash": "53552b20782a0dcb",
+      "size": 3315,
+      "mtimeMs": 1714185776919.522,
+      "updatedAt": "2026-08-03T17:57:08.028Z",
+      "source": "scan"
+    },
+    "vendor/bin/psysh.bat": {
+      "description": "",
+      "tokens": 36,
+      "hash": "29c5b1546d4e625f",
+      "size": 132,
+      "mtimeMs": 1714185776920.521,
+      "updatedAt": "2026-08-03T17:57:08.028Z",
+      "source": "scan"
+    },
+    "vendor/bin/sail": {
+      "description": "Support bash to support `source` with fallback on $0 if this does not run with bash",
+      "tokens": 251,
+      "hash": "634c48dd0d1c3465",
+      "size": 941,
+      "mtimeMs": 1714185776897.676,
+      "updatedAt": "2026-08-03T17:57:08.029Z",
+      "source": "scan"
+    },
+    "vendor/bin/sail.bat": {
+      "description": "",
+      "tokens": 41,
+      "hash": "db79601d3492e91f",
+      "size": 152,
+      "mtimeMs": 1714185776897.676,
+      "updatedAt": "2026-08-03T17:57:08.030Z",
+      "source": "scan"
+    },
+    "vendor/bin/var-dump-server": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 908,
+      "hash": "9f0b22433c84f289",
+      "size": 3402,
+      "mtimeMs": 1714185776333.5127,
+      "updatedAt": "2026-08-03T17:57:08.031Z",
+      "source": "scan"
+    },
+    "vendor/bin/var-dump-server.bat": {
+      "description": "",
+      "tokens": 38,
+      "hash": "cb581fe99b1b6c5d",
+      "size": 142,
+      "mtimeMs": 1714185776334.513,
+      "updatedAt": "2026-08-03T17:57:08.033Z",
+      "source": "scan"
+    },
+    "vendor/bin/yaml-lint": {
+      "description": "Proxy PHP file generated by Composer",
+      "tokens": 898,
+      "hash": "e952df62aee67788",
+      "size": 3366,
+      "mtimeMs": 1714185776885.521,
+      "updatedAt": "2026-08-03T17:57:08.035Z",
+      "source": "scan"
+    },
+    "vendor/bin/yaml-lint.bat": {
+      "description": "",
+      "tokens": 37,
+      "hash": "7d1c5921e86bbc13",
+      "size": 136,
+      "mtimeMs": 1714185776885.521,
+      "updatedAt": "2026-08-03T17:57:08.037Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/CHANGELOG.md": {
+      "description": "Change log",
+      "tokens": 4487,
+      "hash": "a83df32d7c933c61",
+      "size": 18007,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.038Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 203,
+      "hash": "c48d36176d4a72c5",
+      "size": 710,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.039Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/LICENSE": {
+      "description": "Project license",
+      "tokens": 291,
+      "hash": "d2625cc652e6ffa9",
+      "size": 1089,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.040Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/BigDecimal.php": {
+      "description": "Immutable, arbitrary-precision signed decimal numbers.",
+      "tokens": 5958,
+      "hash": "b4fd4ec35c644d04",
+      "size": 22341,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.040Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/BigInteger.php": {
+      "description": "An arbitrary-size integer.",
+      "tokens": 8943,
+      "hash": "bcd54ce3edcbaeca",
+      "size": 33537,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.041Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/BigNumber.php": {
+      "description": "Common interface for arbitrary-precision rational numbers.",
+      "tokens": 4161,
+      "hash": "54d1b4f63f0d56a1",
+      "size": 15601,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.041Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/BigRational.php": {
+      "description": "An arbitrarily large rational number.",
+      "tokens": 3417,
+      "hash": "21ff55c9eb9e9fcf",
+      "size": 12813,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.041Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Exception/DivisionByZeroException.php": {
+      "description": "Exception thrown when a division by zero occurs.",
+      "tokens": 197,
+      "hash": "a65e7307afc6671e",
+      "size": 736,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.042Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Exception/IntegerOverflowException.php": {
+      "description": "Exception thrown when an integer overflow occurs.",
+      "tokens": 141,
+      "hash": "27ff8348f8638945",
+      "size": 526,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.042Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Exception/MathException.php": {
+      "description": "Base class for all math exceptions.",
+      "tokens": 42,
+      "hash": "796f15e4afa34025",
+      "size": 156,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.042Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Exception/NegativeNumberException.php": {
+      "description": "Exception thrown when attempting to perform an unsupported operation, such as a square root, on a negative number.",
+      "tokens": 67,
+      "hash": "9b74142e2c0c4921",
+      "size": 248,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.043Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Exception/NumberFormatException.php": {
+      "description": "Exception thrown when attempting to create a number from a string with an invalid format.",
+      "tokens": 202,
+      "hash": "9b07e6ca9c4667d0",
+      "size": 755,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.043Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Exception/RoundingNecessaryException.php": {
+      "description": "Exception thrown when a number cannot be represented at the requested scale without rounding.",
+      "tokens": 123,
+      "hash": "43997b0b4779555f",
+      "size": 459,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.043Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Internal/Calculator/BcMathCalculator.php": {
+      "description": "Calculator implementation built around the bcmath library.",
+      "tokens": 407,
+      "hash": "fca863db7c110702",
+      "size": 1526,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.043Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Internal/Calculator/GmpCalculator.php": {
+      "description": "Calculator implementation built around the GMP library.",
+      "tokens": 619,
+      "hash": "4d27c8c1c4798ba0",
+      "size": 2320,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.043Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Internal/Calculator/NativeCalculator.php": {
+      "description": "Calculator implementation using only native PHP code.",
+      "tokens": 3667,
+      "hash": "069b4e620ed428a7",
+      "size": 13749,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.044Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/Internal/Calculator.php": {
+      "description": "Performs basic operations on arbitrary size integers.",
+      "tokens": 5167,
+      "hash": "49c18518f4ef9252",
+      "size": 19377,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.044Z",
+      "source": "scan"
+    },
+    "vendor/brick/math/src/RoundingMode.php": {
+      "description": "Specifies a rounding behavior for numerical operations capable of discarding precision.",
+      "tokens": 1030,
+      "hash": "1e6a97df10cc1bab",
+      "size": 3859,
+      "mtimeMs": 1673788558000,
+      "updatedAt": "2026-08-03T17:57:08.044Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 226,
+      "hash": "22b79a840d7c6739",
+      "size": 790,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.045Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/LICENSE": {
+      "description": "Project license",
+      "tokens": 284,
+      "hash": "cf9aa3a6374d6e4a",
+      "size": 1063,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.046Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/README.md": {
+      "description": "Project documentation",
+      "tokens": 130,
+      "hash": "953807414fdae59e",
+      "size": 520,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.047Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine/CarbonDoctrineType.php": {
+      "description": "Interface: CarbonDoctrineType (3 methods)",
+      "tokens": 106,
+      "hash": "bd473d953b519beb",
+      "size": 396,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.047Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine/CarbonImmutableType.php": {
+      "description": "Declares CarbonImmutableType",
+      "tokens": 41,
+      "hash": "3dd7360c838af41c",
+      "size": 151,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.048Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine/CarbonType.php": {
+      "description": "Declares CarbonType",
+      "tokens": 36,
+      "hash": "1d73b7b5cbb6a5c3",
+      "size": 133,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.048Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine/CarbonTypeConverter.php": {
+      "description": "Trait: CarbonTypeConverter",
+      "tokens": 860,
+      "hash": "f2e3fadeadf2eb86",
+      "size": 3222,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.048Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine/DateTimeDefaultPrecision.php": {
+      "description": "Change the default Doctrine datetime and datetime_immutable precision.",
+      "tokens": 152,
+      "hash": "18ddf052751eef55",
+      "size": 567,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.049Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine/DateTimeImmutableType.php": {
+      "description": "DateTimeImmutableType: use CarbonTypeConverter;",
+      "tokens": 209,
+      "hash": "eddb0dcd82ded9e7",
+      "size": 783,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.049Z",
+      "source": "scan"
+    },
+    "vendor/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine/DateTimeType.php": {
+      "description": "DateTimeType: use CarbonTypeConverter;",
+      "tokens": 148,
+      "hash": "30e19093fff903cb",
+      "size": 555,
+      "mtimeMs": 1707461782000,
+      "updatedAt": "2026-08-03T17:57:08.049Z",
+      "source": "scan"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "description": "autoload_classmap.php @generated by Composer",
+      "tokens": 212081,
+      "hash": "45c56027aec3537c",
+      "size": 795303,
+      "mtimeMs": 1785779515669.1829,
+      "updatedAt": "2026-08-03T17:57:08.051Z",
+      "source": "scan"
+    },
+    "vendor/composer/autoload_files.php": {
+      "description": "autoload_files.php @generated by Composer",
+      "tokens": 903,
+      "hash": "0a03ff5cb99fe655",
+      "size": 3383,
+      "mtimeMs": 1714225350463.0115,
+      "updatedAt": "2026-08-03T17:57:08.052Z",
+      "source": "scan"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "description": "autoload_namespaces.php @generated by Composer",
+      "tokens": 38,
+      "hash": "ede505407590638a",
+      "size": 139,
+      "mtimeMs": 1714185779815.2725,
+      "updatedAt": "2026-08-03T17:57:08.052Z",
+      "source": "scan"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "description": "autoload_psr4.php @generated by Composer",
+      "tokens": 1931,
+      "hash": "0ea35935e2009d81",
+      "size": 7240,
+      "mtimeMs": 1714225593692.296,
+      "updatedAt": "2026-08-03T17:57:08.052Z",
+      "source": "scan"
+    },
+    "vendor/composer/autoload_real.php": {
+      "description": "autoload_real.php @generated by Composer",
+      "tokens": 446,
+      "hash": "88afeb0db48557a1",
+      "size": 1672,
+      "mtimeMs": 1714185779878.0647,
+      "updatedAt": "2026-08-03T17:57:08.052Z",
+      "source": "scan"
+    },
+    "vendor/composer/autoload_static.php": {
+      "description": "autoload_static.php @generated by Composer",
+      "tokens": 232137,
+      "hash": "6f8f5dcd227b64a1",
+      "size": 870512,
+      "mtimeMs": 1785779515766.8872,
+      "updatedAt": "2026-08-03T17:57:08.054Z",
+      "source": "scan"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "description": "ClassLoader implements a PSR-0, PSR-4 and classmap class loader.",
+      "tokens": 4368,
+      "hash": "d4b2313e562edf94",
+      "size": 16378,
+      "mtimeMs": 1707488788000,
+      "updatedAt": "2026-08-03T17:57:08.055Z",
+      "source": "scan"
+    },
+    "vendor/composer/installed.json": {
+      "description": "",
+      "tokens": 91425,
+      "hash": "a528179a92eed3cf",
+      "size": 320005,
+      "mtimeMs": 1714225591318.8977,
+      "updatedAt": "2026-08-03T17:57:08.057Z",
+      "source": "scan"
+    },
+    "vendor/composer/installed.php": {
+      "description": "",
+      "tokens": 13709,
+      "hash": "22feb03bb13a7816",
+      "size": 51408,
+      "mtimeMs": 1785779406857.1594,
+      "updatedAt": "2026-08-03T17:57:08.057Z",
+      "source": "scan"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "description": "This class is copied in every Composer installed project and available to all",
+      "tokens": 4305,
+      "hash": "21f4ba19e7859cb3",
+      "size": 16143,
+      "mtimeMs": 1714185775339.5125,
+      "updatedAt": "2026-08-03T17:57:08.057Z",
+      "source": "scan"
+    },
+    "vendor/composer/LICENSE": {
+      "description": "Project license",
+      "tokens": 286,
+      "hash": "c8cce4b6b9729f26",
+      "size": 1070,
+      "mtimeMs": 1707488788000,
+      "updatedAt": "2026-08-03T17:57:08.057Z",
+      "source": "scan"
+    },
+    "vendor/composer/platform_check.php": {
+      "description": "platform_check.php @generated by Composer",
+      "tokens": 247,
+      "hash": "230c364d17607b4f",
+      "size": 925,
+      "mtimeMs": 1714185779877.0608,
+      "updatedAt": "2026-08-03T17:57:08.058Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/CHANGELOG.md": {
+      "description": "Change log",
+      "tokens": 586,
+      "hash": "174e6d4e9c34a81b",
+      "size": 2342,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.059Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 513,
+      "hash": "c60efb7258f5ec7c",
+      "size": 1793,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.059Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/LICENSE": {
+      "description": "Project license",
+      "tokens": 286,
+      "hash": "a51874d3253d0420",
+      "size": 1070,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.060Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/README.md": {
+      "description": "Project documentation",
+      "tokens": 978,
+      "hash": "d84150f9a08e77e3",
+      "size": 3909,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.060Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/src/Data.php": {
+      "description": "Data: {@inheritdoc}, {@inheritdoc}, {@inheritdoc}, {@inheritdoc} + 9 more",
+      "tokens": 1798,
+      "hash": "4e4b20de432f78e8",
+      "size": 6743,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.061Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/src/DataInterface.php": {
+      "description": "Append a value to a key (assumes key refers to an array value)",
+      "tokens": 936,
+      "hash": "df1aa73b142fa484",
+      "size": 3508,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.061Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/src/Exception/DataException.php": {
+      "description": "Base runtime exception type thrown by this library",
+      "tokens": 111,
+      "hash": "320a773d265b35c4",
+      "size": 415,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.062Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/src/Exception/InvalidPathException.php": {
+      "description": "Thrown when trying to access an invalid path in the data array",
+      "tokens": 115,
+      "hash": "d4dc1a3979d717ad",
+      "size": 430,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.062Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/src/Exception/MissingPathException.php": {
+      "description": "Thrown when trying to access a path that does not exist",
+      "tokens": 207,
+      "hash": "33e6d424a9c0a75e",
+      "size": 773,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.062Z",
+      "source": "scan"
+    },
+    "vendor/dflydev/dot-access-data/src/Util.php": {
+      "description": "Test if array is an associative array",
+      "tokens": 514,
+      "hash": "b628ecc8247cbea6",
+      "size": 1924,
+      "mtimeMs": 1666835040000,
+      "updatedAt": "2026-08-03T17:57:08.062Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 444,
+      "hash": "6ea7d991bf1d8ac0",
+      "size": 1552,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.063Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/docs/en/index.rst": {
+      "description": "",
+      "tokens": 1631,
+      "hash": "b082d9fd83440134",
+      "size": 6524,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.064Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/CachedWordInflector.php": {
+      "description": "CachedWordInflector: inflect",
+      "tokens": 137,
+      "hash": "b4a317a81ab4776a",
+      "size": 511,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.065Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/GenericLanguageInflectorFactory.php": {
+      "description": "Model factory: GenericLanguageInflectorFactory",
+      "tokens": 447,
+      "hash": "fafc0abc8427b2e4",
+      "size": 1675,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.065Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Inflector.php": {
+      "description": "Inflector: private $singularizer;, Converts a word into the format for a Doctrine cla, Camelizes a word. This uses the classify() method , Uppercas...",
+      "tokens": 3376,
+      "hash": "debfb1cd939b7b3e",
+      "size": 12848,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.065Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/InflectorFactory.php": {
+      "description": "Model factory: InflectorFactory",
+      "tokens": 380,
+      "hash": "2bbacde9892ed56d",
+      "size": 1422,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.066Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Language.php": {
+      "description": "Declares Language",
+      "tokens": 115,
+      "hash": "7086df750b873fd7",
+      "size": 430,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.066Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/LanguageInflectorFactory.php": {
+      "description": "Applies custom rules for singularisation",
+      "tokens": 215,
+      "hash": "ef96de53ac9f2999",
+      "size": 805,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.066Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/NoopWordInflector.php": {
+      "description": "NoopWordInflector: inflect",
+      "tokens": 54,
+      "hash": "ea0103e6157d47e2",
+      "size": 201,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.066Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php": {
+      "description": "Inflectible: getSingular, getPlural, getIrregular",
+      "tokens": 3166,
+      "hash": "6970bdd437879011",
+      "size": 11871,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.067Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php": {
+      "description": "Model factory: InflectorFactory",
+      "tokens": 123,
+      "hash": "aa1e1866760b7d61",
+      "size": 461,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.067Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Rules.php": {
+      "description": "Rules: getSingularRuleset, getPluralRuleset",
+      "tokens": 234,
+      "hash": "e35b15d4b6eea19b",
+      "size": 874,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.067Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Uninflected.php": {
+      "description": "Uninflected: getSingular, getPlural",
+      "tokens": 1745,
+      "hash": "20f9dc511c2e1ce4",
+      "size": 6543,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.067Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Inflectible.php": {
+      "description": "Inflectible: getSingular, getPlural, getIrregular",
+      "tokens": 500,
+      "hash": "a53be840fe2f4cb5",
+      "size": 1878,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.068Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/InflectorFactory.php": {
+      "description": "Model factory: InflectorFactory",
+      "tokens": 123,
+      "hash": "a630eb1a90b480d0",
+      "size": 460,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.068Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Rules.php": {
+      "description": "Rules: getSingularRuleset, getPluralRuleset",
+      "tokens": 233,
+      "hash": "fb04f9bbf293981d",
+      "size": 873,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.068Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Uninflected.php": {
+      "description": "Uninflected: getSingular, getPlural",
+      "tokens": 142,
+      "hash": "85fa112d868dbe91",
+      "size": 529,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.068Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Inflectible.php": {
+      "description": "Inflectible: getSingular, getPlural, getIrregular",
+      "tokens": 252,
+      "hash": "2cf447a6a0efa040",
+      "size": 943,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.069Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php": {
+      "description": "Model factory: InflectorFactory",
+      "tokens": 126,
+      "hash": "c2d27ad87d04f567",
+      "size": 469,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.069Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Rules.php": {
+      "description": "Rules: getSingularRuleset, getPluralRuleset",
+      "tokens": 236,
+      "hash": "5511986cbf2520ff",
+      "size": 882,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.069Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Uninflected.php": {
+      "description": "Uninflected: getSingular, getPlural",
+      "tokens": 164,
+      "hash": "ca5f4919ebc9a830",
+      "size": 612,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.069Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Pattern.php": {
+      "description": "Pattern: getPattern, getRegex, matches",
+      "tokens": 211,
+      "hash": "b9e06161483826a2",
+      "size": 788,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.069Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Patterns.php": {
+      "description": "Patterns: matches",
+      "tokens": 186,
+      "hash": "781ae973af05f61d",
+      "size": 696,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.070Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Inflectible.php": {
+      "description": "Inflectible: getSingular, getPlural, getIrregular",
+      "tokens": 1487,
+      "hash": "c4dfe10c445d5627",
+      "size": 5648,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.070Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/InflectorFactory.php": {
+      "description": "Model factory: InflectorFactory",
+      "tokens": 124,
+      "hash": "8d3ef2de137b3643",
+      "size": 464,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.070Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Rules.php": {
+      "description": "Rules: getSingularRuleset, getPluralRuleset",
+      "tokens": 234,
+      "hash": "95702c7b83f2bc02",
+      "size": 877,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.070Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Uninflected.php": {
+      "description": "Uninflected: getSingular, getPlural",
+      "tokens": 183,
+      "hash": "903fa962ea11d536",
+      "size": 688,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.070Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Ruleset.php": {
+      "description": "Ruleset: getRegular, getUninflected, getIrregular",
+      "tokens": 208,
+      "hash": "4453b6b744b6d1ea",
+      "size": 777,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.071Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Inflectible.php": {
+      "description": "Inflectible: getSingular, getPlural, getIrregular",
+      "tokens": 490,
+      "hash": "d7ff6970571d3fb7",
+      "size": 1849,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.071Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php": {
+      "description": "Model factory: InflectorFactory",
+      "tokens": 123,
+      "hash": "650c8cc85745f10f",
+      "size": 461,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.071Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Rules.php": {
+      "description": "Rules: getSingularRuleset, getPluralRuleset",
+      "tokens": 234,
+      "hash": "0708e9b4e6f230bc",
+      "size": 874,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.071Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Uninflected.php": {
+      "description": "Uninflected: getSingular, getPlural",
+      "tokens": 164,
+      "hash": "e4a7315505cb061a",
+      "size": 615,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.072Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Substitution.php": {
+      "description": "Substitution: getFrom, getTo",
+      "tokens": 121,
+      "hash": "f4f820de47e9e7fc",
+      "size": 451,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.072Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Substitutions.php": {
+      "description": "Substitutions: getFlippedSubstitutions, inflect",
+      "tokens": 366,
+      "hash": "a5848a7cbb995995",
+      "size": 1372,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.072Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Transformation.php": {
+      "description": "Transformation: getPattern, getReplacement, inflect",
+      "tokens": 211,
+      "hash": "68d176d1dff1c5d3",
+      "size": 790,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.072Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Transformations.php": {
+      "description": "Transformations: inflect",
+      "tokens": 173,
+      "hash": "1d3f9c4fdb07a432",
+      "size": 648,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.072Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Inflectible.php": {
+      "description": "Inflectible: getSingular, getPlural, getIrregular",
+      "tokens": 266,
+      "hash": "4e229fda42e44043",
+      "size": 1006,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.073Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/InflectorFactory.php": {
+      "description": "Model factory: InflectorFactory",
+      "tokens": 123,
+      "hash": "8fd34d12e6da54e1",
+      "size": 461,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.073Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Rules.php": {
+      "description": "Rules: getSingularRuleset, getPluralRuleset",
+      "tokens": 234,
+      "hash": "62c4d45b7c5a8efd",
+      "size": 874,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.073Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Uninflected.php": {
+      "description": "Uninflected: getSingular, getPlural",
+      "tokens": 164,
+      "hash": "819fee56e8a04b92",
+      "size": 615,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.073Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Word.php": {
+      "description": "Word: getWord",
+      "tokens": 79,
+      "hash": "d529854d75a8a844",
+      "size": 294,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.073Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/RulesetInflector.php": {
+      "description": "Inflects based on multiple rulesets.",
+      "tokens": 362,
+      "hash": "6538f5ad735a0519",
+      "size": 1355,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.073Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/lib/Doctrine/Inflector/WordInflector.php": {
+      "description": "Interface: WordInflector (1 methods)",
+      "tokens": 39,
+      "hash": "dea16696aa54979b",
+      "size": 143,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.074Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/LICENSE": {
+      "description": "Project license",
+      "tokens": 284,
+      "hash": "ecd726866355b7a9",
+      "size": 1065,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.074Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/inflector/README.md": {
+      "description": "Project documentation",
+      "tokens": 132,
+      "hash": "d6c532a2ed15f9fa",
+      "size": 525,
+      "mtimeMs": 1708251818000,
+      "updatedAt": "2026-08-03T17:57:08.075Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/lexer/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 405,
+      "hash": "ea2afb009cba598f",
+      "size": 1417,
+      "mtimeMs": 1707098218000,
+      "updatedAt": "2026-08-03T17:57:08.076Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/lexer/LICENSE": {
+      "description": "Project license",
+      "tokens": 284,
+      "hash": "1a3f34d131b4e4af",
+      "size": 1065,
+      "mtimeMs": 1707098218000,
+      "updatedAt": "2026-08-03T17:57:08.076Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/lexer/README.md": {
+      "description": "Project documentation",
+      "tokens": 92,
+      "hash": "c9274d68574ed003",
+      "size": 367,
+      "mtimeMs": 1707098218000,
+      "updatedAt": "2026-08-03T17:57:08.077Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/lexer/src/AbstractLexer.php": {
+      "description": "Base class for writing simple lexers, i.e. for creating small DSLs.",
+      "tokens": 1986,
+      "hash": "9a35d9ff3c096f79",
+      "size": 7446,
+      "mtimeMs": 1707098218000,
+      "updatedAt": "2026-08-03T17:57:08.077Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/lexer/src/Token.php": {
+      "description": "Token: isA",
+      "tokens": 273,
+      "hash": "9054689fc602d028",
+      "size": 1021,
+      "mtimeMs": 1707098218000,
+      "updatedAt": "2026-08-03T17:57:08.077Z",
+      "source": "scan"
+    },
+    "vendor/doctrine/lexer/UPGRADE.md": {
+      "description": "Upgrade to 3.0.0",
+      "tokens": 241,
+      "hash": "b582d636eb4433d0",
+      "size": 962,
+      "mtimeMs": 1707098218000,
+      "updatedAt": "2026-08-03T17:57:08.078Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/CHANGELOG.md": {
+      "description": "Change log",
+      "tokens": 1636,
+      "hash": "dffef54b13a73bc8",
+      "size": 6544,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.079Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 356,
+      "hash": "880a6a3a3ee9ba3b",
+      "size": 1244,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.080Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/LICENSE": {
+      "description": "Project license",
+      "tokens": 306,
+      "hash": "adbbf6c8829fa66f",
+      "size": 1146,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.080Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/README.md": {
+      "description": "Project documentation",
+      "tokens": 936,
+      "hash": "569f620c13bd7946",
+      "size": 3742,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.081Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/AbstractField.php": {
+      "description": "Abstract CRON expression field.",
+      "tokens": 2638,
+      "hash": "eca0af465d2f5e24",
+      "size": 9891,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.082Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/CronExpression.php": {
+      "description": "CRON expression parser that can determine whether or not a CRON expression is",
+      "tokens": 5503,
+      "hash": "9f55aa939964caa0",
+      "size": 20636,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.082Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php": {
+      "description": "Day of month field.  Allows: * , / - ? L W.",
+      "tokens": 1303,
+      "hash": "b69d63d2a2890106",
+      "size": 4886,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.082Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/DayOfWeekField.php": {
+      "description": "Day of week field.  Allows: * / , - ? L #.",
+      "tokens": 1536,
+      "hash": "c4f87aa0f65ea315",
+      "size": 5759,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.083Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/FieldFactory.php": {
+      "description": "CRON field factory implementing a flyweight factory.",
+      "tokens": 375,
+      "hash": "5ee4219a55fecd8f",
+      "size": 1405,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.083Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/FieldFactoryInterface.php": {
+      "description": "Interface: FieldFactoryInterface (1 methods)",
+      "tokens": 33,
+      "hash": "54559d46e350bbf2",
+      "size": 121,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.083Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/FieldInterface.php": {
+      "description": "CRON field interface.",
+      "tokens": 354,
+      "hash": "158a32eded9733c4",
+      "size": 1326,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.083Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/HoursField.php": {
+      "description": "Hours field.  Allows: * , / -.",
+      "tokens": 1894,
+      "hash": "1b003d61f69b27d4",
+      "size": 7102,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.084Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/MinutesField.php": {
+      "description": "Minutes field.  Allows: * , / -.",
+      "tokens": 721,
+      "hash": "bc18b0bb62c77105",
+      "size": 2703,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.084Z",
+      "source": "scan"
+    },
+    "vendor/dragonmantank/cron-expression/src/Cron/MonthField.php": {
+      "description": "Month field.  Allows: * , / -.",
+      "tokens": 357,
+      "hash": "96ef40989010fba7",
+      "size": 1336,
+      "mtimeMs": 1691660208000,
+      "updatedAt": "2026-08-03T17:57:08.084Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/CHANGELOG.md": {
+      "description": "Change log",
+      "tokens": 260,
+      "hash": "4aea488bbc2b6edf",
+      "size": 1040,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.085Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 268,
+      "hash": "089c54da78a898fc",
+      "size": 936,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.086Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/CONTRIBUTING.md": {
+      "description": "Contributing",
+      "tokens": 1628,
+      "hash": "36ac8b77bdc70d1c",
+      "size": 6510,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.087Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/LICENSE": {
+      "description": "Project license",
+      "tokens": 286,
+      "hash": "2e56ccade3e89c00",
+      "size": 1069,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.088Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/EmailLexer.php": {
+      "description": "EmailLexer: class EmailLexer extends AbstractLexer, moveNext, Retrieve token type. Also processes the token valu, getAccumulatedValues + 3 more",
+      "tokens": 2329,
+      "hash": "ebf364c14dd51f2c",
+      "size": 8733,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.088Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/EmailParser.php": {
+      "description": "EmailParser: parse, getDomainPart, getLocalPart",
+      "tokens": 634,
+      "hash": "260e997a9902b140",
+      "size": 2374,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.088Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/EmailValidator.php": {
+      "description": "EmailValidator: private $lexer;, hasWarnings, getWarnings, getError",
+      "tokens": 330,
+      "hash": "0f2b10a4084a5a93",
+      "size": 1236,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.089Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/MessageIDParser.php": {
+      "description": "MessageIDParser: parse, getLeftPart, getRightPart",
+      "tokens": 627,
+      "hash": "3ff7a338ae7027cb",
+      "size": 2349,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.089Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/Comment.php": {
+      "description": "Comment: parse",
+      "tokens": 842,
+      "hash": "dd2b04ab067d5adc",
+      "size": 3154,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.089Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/CommentStrategy/CommentStrategy.php": {
+      "description": "Return \"true\" to continue, \"false\" to exit",
+      "tokens": 140,
+      "hash": "32b0d465b22c62ad",
+      "size": 525,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.090Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/CommentStrategy/DomainComment.php": {
+      "description": "DomainComment: exitCondition, endOfLoopValidations, getWarnings",
+      "tokens": 280,
+      "hash": "a3e553cdee413ace",
+      "size": 1050,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.090Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/CommentStrategy/LocalComment.php": {
+      "description": "LocalComment: exitCondition, endOfLoopValidations, getWarnings",
+      "tokens": 284,
+      "hash": "c483a69584531349",
+      "size": 1062,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.090Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/DomainLiteral.php": {
+      "description": "DomainLiteral: parse, checkIPV6Tag, convertIPv4ToIPv6",
+      "tokens": 1912,
+      "hash": "f23563c4af761656",
+      "size": 7169,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.090Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/DomainPart.php": {
+      "description": "DomainPart: parse, domainPart",
+      "tokens": 2859,
+      "hash": "35837afb791f5ece",
+      "size": 10721,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.091Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/DoubleQuote.php": {
+      "description": "DoubleQuote: parse",
+      "tokens": 854,
+      "hash": "49ae4ce893b48143",
+      "size": 3201,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.091Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/FoldingWhiteSpace.php": {
+      "description": "FoldingWhiteSpace: parse",
+      "tokens": 746,
+      "hash": "4b2731bf9b05b76f",
+      "size": 2794,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.091Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/IDLeftPart.php": {
+      "description": "IDLeftPart: parseComments",
+      "tokens": 103,
+      "hash": "d400306b11634b18",
+      "size": 386,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.091Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/IDRightPart.php": {
+      "description": "IDRightPart: validateTokens",
+      "tokens": 260,
+      "hash": "c1be0430975ccbcb",
+      "size": 972,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.092Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/LocalPart.php": {
+      "description": "LocalPart: parse, localPart",
+      "tokens": 1443,
+      "hash": "8e7d72cb5aa09ff4",
+      "size": 5408,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.092Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser/PartParser.php": {
+      "description": "PartParser: protected $warnings = [];",
+      "tokens": 411,
+      "hash": "287d0e24249299b1",
+      "size": 1539,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.092Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Parser.php": {
+      "description": "Parser: protected $warnings = [];",
+      "tokens": 477,
+      "hash": "6f311d67fd9f08e9",
+      "size": 1787,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.092Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/InvalidEmail.php": {
+      "description": "InvalidEmail: isValid, isInvalid, description, code + 1 more",
+      "tokens": 225,
+      "hash": "116682b79cfb8c26",
+      "size": 843,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.093Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/MultipleErrors.php": {
+      "description": "MultipleErrors: class MultipleErrors extends InvalidEmail, reason, description, code",
+      "tokens": 285,
+      "hash": "9d77cd55d56e9b2a",
+      "size": 1066,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.093Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/AtextAfterCFWS.php": {
+      "description": "AtextAfterCFWS: code, description",
+      "tokens": 70,
+      "hash": "b7a03fe8d77edeba",
+      "size": 261,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.093Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/CharNotAllowed.php": {
+      "description": "CharNotAllowed: code, description",
+      "tokens": 69,
+      "hash": "e6dc5de8dc66b142",
+      "size": 258,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.093Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/CommaInDomain.php": {
+      "description": "CommaInDomain: code, description",
+      "tokens": 74,
+      "hash": "00d63bbe3bc10a9d",
+      "size": 277,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.094Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/CommentsInIDRight.php": {
+      "description": "CommentsInIDRight: code, description",
+      "tokens": 78,
+      "hash": "1ab5313dcc288d31",
+      "size": 292,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.094Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/ConsecutiveAt.php": {
+      "description": "ConsecutiveAt: code, description",
+      "tokens": 70,
+      "hash": "d9fffb6f6ddde4fa",
+      "size": 262,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.094Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/ConsecutiveDot.php": {
+      "description": "ConsecutiveDot: code, description",
+      "tokens": 70,
+      "hash": "a186a145e649eeee",
+      "size": 260,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.094Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/CRLFAtTheEnd.php": {
+      "description": "CRLFAtTheEnd: code, description",
+      "tokens": 88,
+      "hash": "9ee12a8c2671c72c",
+      "size": 327,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.095Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/CRLFX2.php": {
+      "description": "CRLFX2: code, description",
+      "tokens": 69,
+      "hash": "25f408922edcda38",
+      "size": 256,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.095Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/CRNoLF.php": {
+      "description": "CRNoLF: code, description",
+      "tokens": 67,
+      "hash": "dfc42a473993c2e8",
+      "size": 250,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.095Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/DetailedReason.php": {
+      "description": "Declares DetailedReason",
+      "tokens": 68,
+      "hash": "4f4a58c9b5a791ee",
+      "size": 253,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.095Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/DomainAcceptsNoMail.php": {
+      "description": "DomainAcceptsNoMail: code, description",
+      "tokens": 76,
+      "hash": "f1aeb693b390fee9",
+      "size": 285,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.096Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/DomainHyphened.php": {
+      "description": "DomainHyphened: code, description",
+      "tokens": 72,
+      "hash": "44d21a8df5d09eb9",
+      "size": 268,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.096Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/DomainTooLong.php": {
+      "description": "DomainTooLong: code, description",
+      "tokens": 74,
+      "hash": "3cff9d266d813ae2",
+      "size": 274,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.096Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/DotAtEnd.php": {
+      "description": "DotAtEnd: code, description",
+      "tokens": 66,
+      "hash": "4899ca8144f10978",
+      "size": 247,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.096Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/DotAtStart.php": {
+      "description": "DotAtStart: code, description",
+      "tokens": 68,
+      "hash": "1c42e638325f3897",
+      "size": 252,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.096Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/EmptyReason.php": {
+      "description": "EmptyReason: code, description",
+      "tokens": 66,
+      "hash": "938256fea0fb863f",
+      "size": 246,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.097Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/ExceptionFound.php": {
+      "description": "ExceptionFound: code, description",
+      "tokens": 119,
+      "hash": "99c5c16c254199b9",
+      "size": 446,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.097Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/ExpectingATEXT.php": {
+      "description": "ExpectingATEXT: code, description",
+      "tokens": 86,
+      "hash": "d8dc37ad8c13e6af",
+      "size": 321,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.097Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/ExpectingCTEXT.php": {
+      "description": "ExpectingCTEXT: code, description",
+      "tokens": 68,
+      "hash": "c367a80455bef1ae",
+      "size": 254,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.097Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/ExpectingDomainLiteralClose.php": {
+      "description": "ExpectingDomainLiteralClose: code, description",
+      "tokens": 80,
+      "hash": "ffa612486c5d0ca9",
+      "size": 300,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.097Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/ExpectingDTEXT.php": {
+      "description": "ExpectingDTEXT: code, description",
+      "tokens": 68,
+      "hash": "b5dfd710af651979",
+      "size": 254,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.098Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/LabelTooLong.php": {
+      "description": "LabelTooLong: code, description",
+      "tokens": 75,
+      "hash": "8cf9681fc29077cc",
+      "size": 280,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.098Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/LocalOrReservedDomain.php": {
+      "description": "LocalOrReservedDomain: code, description",
+      "tokens": 79,
+      "hash": "636dbe75d1bb099e",
+      "size": 295,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.098Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/NoDNSRecord.php": {
+      "description": "NoDNSRecord: code, description",
+      "tokens": 75,
+      "hash": "b923f0b33ec4c274",
+      "size": 281,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.098Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/NoDomainPart.php": {
+      "description": "NoDomainPart: code, description",
+      "tokens": 69,
+      "hash": "eabf2f7236302447",
+      "size": 257,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.098Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/NoLocalPart.php": {
+      "description": "NoLocalPart: code, description",
+      "tokens": 67,
+      "hash": "ca4765e51bb33dc2",
+      "size": 250,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.099Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/Reason.php": {
+      "description": "Code for user land to act upon;",
+      "tokens": 76,
+      "hash": "21156bc1a2b38cbf",
+      "size": 283,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.099Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/RFCWarnings.php": {
+      "description": "RFCWarnings: code, description",
+      "tokens": 72,
+      "hash": "49c490534ffa7d30",
+      "size": 267,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.099Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/SpoofEmail.php": {
+      "description": "SpoofEmail: code, description",
+      "tokens": 80,
+      "hash": "4847b8e2a2b25ec6",
+      "size": 297,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.099Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/UnableToGetDNSRecord.php": {
+      "description": "Used on SERVFAIL, TIMEOUT or other runtime and network errors",
+      "tokens": 95,
+      "hash": "fb022f767f92704e",
+      "size": 356,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.099Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/UnclosedComment.php": {
+      "description": "UnclosedComment: code, description",
+      "tokens": 72,
+      "hash": "5f3b8d66d42dcc85",
+      "size": 270,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.100Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/UnclosedQuotedString.php": {
+      "description": "UnclosedQuotedString: code, description",
+      "tokens": 72,
+      "hash": "3c9fb1750aceb66f",
+      "size": 267,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.100Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/UnOpenedComment.php": {
+      "description": "UnOpenedComment: code, description",
+      "tokens": 87,
+      "hash": "c8269f0803b27922",
+      "size": 326,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.100Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Reason/UnusualElements.php": {
+      "description": "UnusualElements: code, description",
+      "tokens": 135,
+      "hash": "57fac831a43dcd7b",
+      "size": 503,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.100Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/Result.php": {
+      "description": "Is validation result valid?",
+      "tokens": 134,
+      "hash": "191429e2f15776cd",
+      "size": 500,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.101Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/SpoofEmail.php": {
+      "description": "Declares SpoofEmail",
+      "tokens": 82,
+      "hash": "44d58275388ede30",
+      "size": 306,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.101Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Result/ValidEmail.php": {
+      "description": "ValidEmail: isValid, isInvalid, description, code",
+      "tokens": 102,
+      "hash": "d22aecb2f7973c86",
+      "size": 379,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.101Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/DNSCheckValidation.php": {
+      "description": "Reserved Top Level DNS Names (https://tools.ietf.org/html/rfc2606#section-2),",
+      "tokens": 1544,
+      "hash": "53ae12683f5f9422",
+      "size": 5788,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.101Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/DNSGetRecordWrapper.php": {
+      "description": "DNSGetRecordWrapper: getRecords",
+      "tokens": 243,
+      "hash": "a88854e094003379",
+      "size": 909,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.101Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/DNSRecords.php": {
+      "description": "DNSRecords: getRecords, withError",
+      "tokens": 123,
+      "hash": "b032a0b1a10561ab",
+      "size": 461,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.102Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/EmailValidation.php": {
+      "description": "Returns true if the given email is valid.",
+      "tokens": 210,
+      "hash": "92d92ef8258c0a50",
+      "size": 786,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.102Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/Exception/EmptyValidationList.php": {
+      "description": "Declares EmptyValidationList",
+      "tokens": 94,
+      "hash": "cda69a61d81bbec3",
+      "size": 352,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.102Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/Extra/SpoofCheckValidation.php": {
+      "description": "SpoofCheckValidation: private $error;, getError, getWarnings",
+      "tokens": 303,
+      "hash": "eb4c5dd578a2c015",
+      "size": 1136,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.102Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/MessageIDValidation.php": {
+      "description": "MessageIDValidation: private $warnings = [];, getError",
+      "tokens": 347,
+      "hash": "357adbb0abf11304",
+      "size": 1301,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.102Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/MultipleValidationWithAnd.php": {
+      "description": "If one of validations fails, the remaining validations will be skipped.",
+      "tokens": 753,
+      "hash": "8c9f2dec11d80adc",
+      "size": 2823,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.103Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/NoRFCWarningsValidation.php": {
+      "description": "NoRFCWarningsValidation: private $error;, {@inheritdoc}",
+      "tokens": 226,
+      "hash": "f7587f1678742739",
+      "size": 845,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.103Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Validation/RFCValidation.php": {
+      "description": "RFCValidation: private array $warnings = [];",
+      "tokens": 345,
+      "hash": "f0744db01aeb4eed",
+      "size": 1292,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.103Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/AddressLiteral.php": {
+      "description": "Declares AddressLiteral",
+      "tokens": 69,
+      "hash": "7e589814a136c570",
+      "size": 258,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.104Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/CFWSNearAt.php": {
+      "description": "Declares CFWSNearAt",
+      "tokens": 61,
+      "hash": "527c1fc1f35c44d2",
+      "size": 228,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.104Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/CFWSWithFWS.php": {
+      "description": "Declares CFWSWithFWS",
+      "tokens": 66,
+      "hash": "3134627847f5e8f6",
+      "size": 244,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.104Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/Comment.php": {
+      "description": "Declares Comment",
+      "tokens": 58,
+      "hash": "d04ad2c4f6ff01ca",
+      "size": 216,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.104Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/DeprecatedComment.php": {
+      "description": "Declares DeprecatedComment",
+      "tokens": 58,
+      "hash": "ed0c4de9b33b4b9f",
+      "size": 217,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.104Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/DomainLiteral.php": {
+      "description": "Declares DomainLiteral",
+      "tokens": 65,
+      "hash": "a96b6ddb40dcd7c6",
+      "size": 241,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.105Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/EmailTooLong.php": {
+      "description": "Declares EmailTooLong",
+      "tokens": 79,
+      "hash": "10b3ed541c98e419",
+      "size": 293,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.105Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/IPV6BadChar.php": {
+      "description": "Declares IPV6BadChar",
+      "tokens": 69,
+      "hash": "37184d27ae065abc",
+      "size": 256,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.105Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/IPV6ColonEnd.php": {
+      "description": "Declares IPV6ColonEnd",
+      "tokens": 72,
+      "hash": "62fe6006804bb527",
+      "size": 267,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.105Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/IPV6ColonStart.php": {
+      "description": "Declares IPV6ColonStart",
+      "tokens": 73,
+      "hash": "6be3c6f3554fb5bf",
+      "size": 271,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.105Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/IPV6Deprecated.php": {
+      "description": "Declares IPV6Deprecated",
+      "tokens": 67,
+      "hash": "e8e39e11db44a87c",
+      "size": 251,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.106Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/IPV6DoubleColon.php": {
+      "description": "Declares IPV6DoubleColon",
+      "tokens": 70,
+      "hash": "bbe5a0f0fadb0d2e",
+      "size": 262,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.106Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/IPV6GroupCount.php": {
+      "description": "Declares IPV6GroupCount",
+      "tokens": 69,
+      "hash": "390ceabdf43ccd19",
+      "size": 257,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.106Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/IPV6MaxGroups.php": {
+      "description": "Declares IPV6MaxGroups",
+      "tokens": 74,
+      "hash": "81d43cf04fd26c28",
+      "size": 276,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.106Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/LocalTooLong.php": {
+      "description": "Declares LocalTooLong",
+      "tokens": 85,
+      "hash": "08d9b9b3bce4bef1",
+      "size": 316,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.106Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/NoDNSMXRecord.php": {
+      "description": "Declares NoDNSMXRecord",
+      "tokens": 72,
+      "hash": "be11b6872ba5c892",
+      "size": 267,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.107Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/ObsoleteDTEXT.php": {
+      "description": "Declares ObsoleteDTEXT",
+      "tokens": 70,
+      "hash": "f8aeeb454441e9a6",
+      "size": 259,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.107Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/QuotedPart.php": {
+      "description": "Declares QuotedPart",
+      "tokens": 98,
+      "hash": "ac754db01771fb4a",
+      "size": 367,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.107Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/QuotedString.php": {
+      "description": "Declares QuotedString",
+      "tokens": 93,
+      "hash": "e84e7b237475a174",
+      "size": 348,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.107Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/TLD.php": {
+      "description": "Declares TLD",
+      "tokens": 52,
+      "hash": "91f7a65b99980e55",
+      "size": 195,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.107Z",
+      "source": "scan"
+    },
+    "vendor/egulias/email-validator/src/Warning/Warning.php": {
+      "description": "Warning: public const CODE = 0;, code, RFCNumber, __toString",
+      "tokens": 210,
+      "hash": "41e00b3178a9ec9b",
+      "size": 787,
+      "mtimeMs": 1696538860000,
+      "updatedAt": "2026-08-03T17:57:08.108Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/CHANGELOG.md": {
+      "description": "Change log",
+      "tokens": 2117,
+      "hash": "2834656703aec7b6",
+      "size": 8466,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.111Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/composer.json": {
+      "description": "PHP package manifest",
+      "tokens": 471,
+      "hash": "059af14c8b5d743a",
+      "size": 1649,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.112Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/LICENSE": {
+      "description": "Project license",
+      "tokens": 316,
+      "hash": "34c5d519a2c335b9",
+      "size": 1186,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.113Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/README.md": {
+      "description": "Project documentation",
+      "tokens": 945,
+      "hash": "fa40842d21d6c6fb",
+      "size": 3779,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.114Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/rector-migrate.php": {
+      "description": "",
+      "tokens": 1001,
+      "hash": "cbd418b46def8f88",
+      "size": 3753,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.114Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/autoload.php": {
+      "description": "Simple autoloader that follow the PHP Standards Recommendation #0 (PSR-0)",
+      "tokens": 236,
+      "hash": "f71911399c39f58c",
+      "size": 883,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.115Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Calculator/Ean.php": {
+      "description": "Utility class for validating EAN-8 and EAN-13 numbers",
+      "tokens": 302,
+      "hash": "65418ec3e04dbafe",
+      "size": 1130,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.115Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Calculator/Iban.php": {
+      "description": "Generates IBAN Checksum",
+      "tokens": 431,
+      "hash": "eff3f8dd7d142b80",
+      "size": 1614,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.115Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Calculator/Inn.php": {
+      "description": "Inn: class Inn, Checks whether an INN has a valid checksum",
+      "tokens": 336,
+      "hash": "c20443fc4ac7b4f3",
+      "size": 1257,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.115Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Calculator/Isbn.php": {
+      "description": "Utility class for validating ISBN-10",
+      "tokens": 413,
+      "hash": "ddee32d1c22c7789",
+      "size": 1548,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.116Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Calculator/Luhn.php": {
+      "description": "Utility class for generating and validating Luhn numbers.",
+      "tokens": 437,
+      "hash": "cbd00a2a039bf819",
+      "size": 1638,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.116Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Calculator/TCNo.php": {
+      "description": "TCNo: class TCNo, Checks whether a TCNo has a valid checksum",
+      "tokens": 308,
+      "hash": "c4ae13f35297191b",
+      "size": 1152,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.116Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ChanceGenerator.php": {
+      "description": "This generator returns a default value for all called properties",
+      "tokens": 381,
+      "hash": "b50260bd5a05eb16",
+      "size": 1426,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.116Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Container/Container.php": {
+      "description": "A simple implementation of a container.",
+      "tokens": 1000,
+      "hash": "0f70583d1c2bec48",
+      "size": 3750,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.116Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Container/ContainerBuilder.php": {
+      "description": "is: final class ContainerBuilder, build, withDefaultExtensions",
+      "tokens": 500,
+      "hash": "5daa22668f030892",
+      "size": 1873,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.117Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Container/ContainerException.php": {
+      "description": "Declares is",
+      "tokens": 80,
+      "hash": "634671746aaa3eb4",
+      "size": 300,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.117Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Container/ContainerInterface.php": {
+      "description": "Interface: ContainerInterface (0 methods)",
+      "tokens": 44,
+      "hash": "a3213a1493a2a873",
+      "size": 164,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.117Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Container/NotInContainerException.php": {
+      "description": "Declares is",
+      "tokens": 81,
+      "hash": "f0cf4c300a0c181b",
+      "size": 303,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.117Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/Barcode.php": {
+      "description": "is: ean13, ean8, isbn10, isbn13",
+      "tokens": 338,
+      "hash": "e037a4b3841484e4",
+      "size": 1267,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.117Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/Blood.php": {
+      "description": "is: bloodType, bloodRh, bloodGroup",
+      "tokens": 219,
+      "hash": "ab454c8663770693",
+      "size": 818,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.118Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/Color.php": {
+      "description": "is: final class Color implements Extension\\ColorExtens, safeHexColor, rgbColorAsArray, rgbColor + 6 more",
+      "tokens": 1428,
+      "hash": "3e604d0cc20b68ca",
+      "size": 5354,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.118Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/Coordinates.php": {
+      "description": "is: final class Coordinates implements Extension\\Exten, longitude, localCoordinates",
+      "tokens": 568,
+      "hash": "f67541484ed45091",
+      "size": 2128,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.118Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/DateTime.php": {
+      "description": "is: dateTime, dateTimeAD, dateTimeBetween, dateTimeInInterval + 17 more",
+      "tokens": 1679,
+      "hash": "6287cf95c105a2ec",
+      "size": 6295,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.118Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/File.php": {
+      "description": "Declares is",
+      "tokens": 6323,
+      "hash": "5488813e8129e71f",
+      "size": 23709,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.119Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/Number.php": {
+      "description": "is: numberBetween, randomDigit, randomDigitNot, randomDigitNotZero + 2 more",
+      "tokens": 522,
+      "hash": "2158a4495c91e1f8",
+      "size": 1957,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.119Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/Uuid.php": {
+      "description": "is: uuid3",
+      "tokens": 550,
+      "hash": "81fce4c2177f9f54",
+      "size": 2059,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.119Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Core/Version.php": {
+      "description": "is: final class Version implements Extension\\VersionEx",
+      "tokens": 563,
+      "hash": "1de41d83beb1261c",
+      "size": 2111,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.119Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/DefaultGenerator.php": {
+      "description": "This generator returns a default value for all called properties",
+      "tokens": 274,
+      "hash": "a822b9161b089711",
+      "size": 1024,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.120Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Documentor.php": {
+      "description": "Documentor: getFormatters",
+      "tokens": 643,
+      "hash": "2a8ff87398f65431",
+      "size": 2410,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.120Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/AddressExtension.php": {
+      "description": "Interface: is (6 methods)",
+      "tokens": 204,
+      "hash": "888cdcc032b2b23a",
+      "size": 762,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.120Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/BarcodeExtension.php": {
+      "description": "Interface: is (4 methods)",
+      "tokens": 226,
+      "hash": "0e89ceaf5203a796",
+      "size": 844,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.120Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/BloodExtension.php": {
+      "description": "Interface: is (3 methods)",
+      "tokens": 141,
+      "hash": "730e0dd842f4501b",
+      "size": 527,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.121Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/ColorExtension.php": {
+      "description": "Interface: is (10 methods)",
+      "tokens": 303,
+      "hash": "4c63e2a686255388",
+      "size": 1133,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.121Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/CompanyExtension.php": {
+      "description": "Interface: is (3 methods)",
+      "tokens": 103,
+      "hash": "97cf31740ae6ff0b",
+      "size": 386,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.121Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/CountryExtension.php": {
+      "description": "Interface: is (1 methods)",
+      "tokens": 69,
+      "hash": "1fb3e9910feff8b8",
+      "size": 258,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.121Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/DateTimeExtension.php": {
+      "description": "FakerPHP extension for Date-related randomization.",
+      "tokens": 2469,
+      "hash": "0adcb850d9b520f5",
+      "size": 9256,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.121Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/Extension.php": {
+      "description": "An extension is the only way to add new functionality to Faker.",
+      "tokens": 67,
+      "hash": "2be162fe2fb7f664",
+      "size": 250,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.121Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/ExtensionNotFound.php": {
+      "description": "Declares is",
+      "tokens": 56,
+      "hash": "518b05404ab9362b",
+      "size": 210,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.122Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/FileExtension.php": {
+      "description": "Interface: is (3 methods)",
+      "tokens": 146,
+      "hash": "a98776af72a2d74d",
+      "size": 547,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.122Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/GeneratorAwareExtension.php": {
+      "description": "Interface: is (1 methods)",
+      "tokens": 131,
+      "hash": "015efd18b13f189b",
+      "size": 489,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.122Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/GeneratorAwareExtensionTrait.php": {
+      "description": "A helper trait to be used with GeneratorAwareExtension.",
+      "tokens": 128,
+      "hash": "1d5cf4a13be62dfc",
+      "size": 478,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.122Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/Helper.php": {
+      "description": "A class with some methods that may make building extensions easier.",
+      "tokens": 859,
+      "hash": "077882a14f8749c4",
+      "size": 3220,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.122Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/NumberExtension.php": {
+      "description": "Interface: is (6 methods)",
+      "tokens": 371,
+      "hash": "bb9909444c22bbcf",
+      "size": 1391,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.122Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/PersonExtension.php": {
+      "description": "Interface: is (8 methods)",
+      "tokens": 300,
+      "hash": "401b22b4670e6e86",
+      "size": 1122,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.123Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/PhoneNumberExtension.php": {
+      "description": "Interface: is (2 methods)",
+      "tokens": 98,
+      "hash": "063d87f297341763",
+      "size": 365,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.123Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/UuidExtension.php": {
+      "description": "Interface: is (1 methods)",
+      "tokens": 91,
+      "hash": "41cfd649e097927c",
+      "size": 340,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.123Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Extension/VersionExtension.php": {
+      "description": "Interface: is (1 methods)",
+      "tokens": 168,
+      "hash": "ef398a151784e14e",
+      "size": 627,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.123Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Factory.php": {
+      "description": "Create a new generator",
+      "tokens": 545,
+      "hash": "fed3e4ca2896ea96",
+      "size": 2043,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.123Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Generator.php": {
+      "description": "Generator: class Generator",
+      "tokens": 6145,
+      "hash": "a751fb4e06d21ae0",
+      "size": 23043,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.124Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Guesser/Name.php": {
+      "description": "Name: guessFormat",
+      "tokens": 1418,
+      "hash": "deae70d70a333a8d",
+      "size": 5315,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.124Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/CakePHP/ColumnTypeGuesser.php": {
+      "description": "ColumnTypeGuesser: guessFormat",
+      "tokens": 593,
+      "hash": "7ba36cb6c24eea4c",
+      "size": 2221,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.124Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/CakePHP/EntityPopulator.php": {
+      "description": "EntityPopulator: __get, __set, mergeColumnFormattersWith, mergeModifiersWith + 4 more",
+      "tokens": 1227,
+      "hash": "fa99c50b3cb74180",
+      "size": 4598,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.125Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/CakePHP/Populator.php": {
+      "description": "Populator: getGenerator, getGuessers, removeGuesser, addGuesser + 2 more",
+      "tokens": 672,
+      "hash": "bda3c03a5fcc8651",
+      "size": 2518,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.125Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Doctrine/backward-compatibility.php": {
+      "description": "",
+      "tokens": 109,
+      "hash": "2c8c6849b06a47a3",
+      "size": 406,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.125Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Doctrine/ColumnTypeGuesser.php": {
+      "description": "ColumnTypeGuesser: guessFormat",
+      "tokens": 716,
+      "hash": "efc390e412fb0d27",
+      "size": 2682,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.126Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Doctrine/EntityPopulator.php": {
+      "description": "Service class for populating a table through a Doctrine Entity class.",
+      "tokens": 1967,
+      "hash": "cf64ec7aefb86536",
+      "size": 7373,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.126Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Doctrine/Populator.php": {
+      "description": "Service class for populating a database using the Doctrine ORM or ODM.",
+      "tokens": 954,
+      "hash": "0c539e5cc1c7c16d",
+      "size": 3575,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.126Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Mandango/ColumnTypeGuesser.php": {
+      "description": "ColumnTypeGuesser: protected $generator;",
+      "tokens": 365,
+      "hash": "4968140f6c5d4796",
+      "size": 1367,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.126Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Mandango/EntityPopulator.php": {
+      "description": "Service class for populating a table through a Mandango ActiveRecord class.",
+      "tokens": 880,
+      "hash": "0357427b22937794",
+      "size": 3297,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.126Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Mandango/Populator.php": {
+      "description": "Service class for populating a database using Mandango.",
+      "tokens": 510,
+      "hash": "d7a35d9a0c630aa5",
+      "size": 1911,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.127Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Propel/ColumnTypeGuesser.php": {
+      "description": "ColumnTypeGuesser: guessFormat",
+      "tokens": 943,
+      "hash": "bf529c161362e5f0",
+      "size": 3533,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.127Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Propel/EntityPopulator.php": {
+      "description": "Service class for populating a table through a Propel ActiveRecord class.",
+      "tokens": 1524,
+      "hash": "f484ab6cb5737ee1",
+      "size": 5713,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.127Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Propel/Populator.php": {
+      "description": "Service class for populating a database using the Propel ORM.",
+      "tokens": 739,
+      "hash": "60a64ba3bc234083",
+      "size": 2769,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.127Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Propel2/ColumnTypeGuesser.php": {
+      "description": "ColumnTypeGuesser: guessFormat",
+      "tokens": 938,
+      "hash": "1dbd89d7b36db84f",
+      "size": 3514,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.128Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Propel2/EntityPopulator.php": {
+      "description": "Service class for populating a table through a Propel ActiveRecord class.",
+      "tokens": 1553,
+      "hash": "4c19f04bae0ff8e3",
+      "size": 5822,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.128Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Propel2/Populator.php": {
+      "description": "Service class for populating a database using the Propel ORM.",
+      "tokens": 769,
+      "hash": "001c9b9a44c6a8be",
+      "size": 2883,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.128Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Spot/ColumnTypeGuesser.php": {
+      "description": "ColumnTypeGuesser constructor.",
+      "tokens": 608,
+      "hash": "e6f07fa39d795217",
+      "size": 2280,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.129Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Spot/EntityPopulator.php": {
+      "description": "Service class for populating a table through a Spot Entity class.",
+      "tokens": 1355,
+      "hash": "c9d6120232109fe8",
+      "size": 5081,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.129Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ORM/Spot/Populator.php": {
+      "description": "Service class for populating a database using the Spot ORM.",
+      "tokens": 690,
+      "hash": "fc2f0147c5b28206",
+      "size": 2585,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.129Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Address.php": {
+      "description": "Address: citySuffix, streetSuffix, buildingNumber, city + 8 more",
+      "tokens": 953,
+      "hash": "d26ff94b9e69a026",
+      "size": 3572,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.129Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_EG/Address.php": {
+      "description": "Address: protected static $cityName = [, cityName, streetPrefix, secondaryAddress + 2 more",
+      "tokens": 2020,
+      "hash": "06e505b283f19c36",
+      "size": 10179,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.130Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_EG/Color.php": {
+      "description": "Declares Color",
+      "tokens": 354,
+      "hash": "5ee663202b826264",
+      "size": 1719,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.130Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_EG/Company.php": {
+      "description": "Company: companyPrefix, catchPhrase, example 010101010, example 010101",
+      "tokens": 545,
+      "hash": "b287b88d12622454",
+      "size": 2331,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.130Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_EG/Internet.php": {
+      "description": "Internet: lastNameAscii, firstNameAscii, userName, domainName",
+      "tokens": 518,
+      "hash": "1c9ed6396b438b5f",
+      "size": 1939,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.131Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_EG/Payment.php": {
+      "description": "International Bank Account Number (IBAN)",
+      "tokens": 87,
+      "hash": "61f00cc46ec482f7",
+      "size": 324,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.131Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_EG/Person.php": {
+      "description": "Person: protected static $firstNameMale = [, nationalIdNumber",
+      "tokens": 2164,
+      "hash": "5c4f646e19a04f3e",
+      "size": 11027,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.131Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_EG/Text.php": {
+      "description": "License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+      "tokens": 2974,
+      "hash": "c58194edb14539ef",
+      "size": 19599,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.132Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_JO/Address.php": {
+      "description": "Address: protected static $cityName = [, cityName, streetPrefix, secondaryAddress + 2 more",
+      "tokens": 1932,
+      "hash": "f6a35eba3dfd6c36",
+      "size": 9925,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.132Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_JO/Company.php": {
+      "description": "Company: companyPrefix, catchPhrase, bs",
+      "tokens": 414,
+      "hash": "d55f81ae830a875c",
+      "size": 1742,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.132Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_JO/Internet.php": {
+      "description": "Internet: lastNameAscii, firstNameAscii, userName, domainName",
+      "tokens": 430,
+      "hash": "112c7f2dad4a22b5",
+      "size": 1611,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.133Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_JO/Person.php": {
+      "description": "Declares Person",
+      "tokens": 3498,
+      "hash": "73a0ff4b84ad65a2",
+      "size": 19364,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.133Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_JO/Text.php": {
+      "description": "License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+      "tokens": 26123,
+      "hash": "2e734f4bcc6ba2ad",
+      "size": 176210,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.135Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_SA/Address.php": {
+      "description": "Address: protected static $cityName = [, cityName, streetPrefix, secondaryAddress + 2 more",
+      "tokens": 2111,
+      "hash": "18fe41faf0d73e64",
+      "size": 11114,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.135Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_SA/Color.php": {
+      "description": "Declares Color",
+      "tokens": 1998,
+      "hash": "d9fdf672589d25ea",
+      "size": 11813,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.135Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_SA/Company.php": {
+      "description": "Company: companyPrefix, catchPhrase, bs, example 7001010101",
+      "tokens": 480,
+      "hash": "5b92b2250a8a9607",
+      "size": 2003,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.136Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_SA/Internet.php": {
+      "description": "Internet: lastNameAscii, firstNameAscii, userName, domainName",
+      "tokens": 430,
+      "hash": "9d6a66bf932ee805",
+      "size": 1611,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.136Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_SA/Payment.php": {
+      "description": "International Bank Account Number (IBAN)",
+      "tokens": 182,
+      "hash": "a611a23cdab30ca4",
+      "size": 682,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.136Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_SA/Person.php": {
+      "description": "Declares Person",
+      "tokens": 2892,
+      "hash": "6e653735efdac156",
+      "size": 15329,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.136Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/ar_SA/Text.php": {
+      "description": "License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+      "tokens": 26123,
+      "hash": "488868b563f83524",
+      "size": 176210,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.138Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/at_AT/Payment.php": {
+      "description": "Declares Payment",
+      "tokens": 63,
+      "hash": "a3b8cbf66c1ba21e",
+      "size": 233,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.138Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Barcode.php": {
+      "description": "Barcode: class Barcode extends Base, Get a random EAN8 barcode., Get a random ISBN-10 code, Get a random ISBN-13 code",
+      "tokens": 598,
+      "hash": "30aa8cbd70318d54",
+      "size": 2242,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.139Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Base.php": {
+      "description": "Base: protected $generator;, Returns a random number between 1 and 9, Generates a random digit, which cannot be $except, Returns a random integer w...",
+      "tokens": 6061,
+      "hash": "a7da99e4c9986f8f",
+      "size": 22732,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.139Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bg_BG/Internet.php": {
+      "description": "Declares Internet",
+      "tokens": 83,
+      "hash": "3daf4690d09bce45",
+      "size": 308,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.139Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bg_BG/Payment.php": {
+      "description": "International Bank Account Number (IBAN)",
+      "tokens": 373,
+      "hash": "52f43a6ed6ed07dd",
+      "size": 1398,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.139Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bg_BG/Person.php": {
+      "description": "Declares Person",
+      "tokens": 5659,
+      "hash": "c31b251c0337e820",
+      "size": 32855,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.140Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bg_BG/PhoneNumber.php": {
+      "description": "Declares PhoneNumber",
+      "tokens": 113,
+      "hash": "06e127f40ff9a196",
+      "size": 421,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.140Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Biased.php": {
+      "description": "Returns a biased integer between $min and $max (both inclusive).",
+      "tokens": 488,
+      "hash": "50e86586e4f0d0f3",
+      "size": 1836,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.140Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bn_BD/Address.php": {
+      "description": "Declares Address",
+      "tokens": 1953,
+      "hash": "4312d5a482697137",
+      "size": 12931,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.141Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bn_BD/Company.php": {
+      "description": "Company: companyType, companyName",
+      "tokens": 144,
+      "hash": "3a343800d4bc4296",
+      "size": 597,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.141Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bn_BD/Person.php": {
+      "description": "Declares Person",
+      "tokens": 297,
+      "hash": "4bd8a4ea2e713de2",
+      "size": 1457,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.141Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bn_BD/PhoneNumber.php": {
+      "description": "PhoneNumber: phoneNumber",
+      "tokens": 71,
+      "hash": "21f0f15a74d8e1ac",
+      "size": 263,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.141Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/bn_BD/Utils.php": {
+      "description": "Utils: getBanglaNumber",
+      "tokens": 75,
+      "hash": "0633a413083b1f03",
+      "size": 300,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.142Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Color.php": {
+      "description": "Color: hexColor, safeHexColor, rgbColorAsArray, rgbColor + 6 more",
+      "tokens": 1267,
+      "hash": "307d066843bfbf9e",
+      "size": 4749,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.142Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Company.php": {
+      "description": "Company: company, companySuffix, jobTitle",
+      "tokens": 241,
+      "hash": "398d97bd2e085c62",
+      "size": 901,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.142Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Address.php": {
+      "description": "Source: https://cs.wikipedia.org/wiki/Seznam_m%C4%9Bst_v_%C4%8Cesku_podle_po%C4%8Dtu_obyvatel",
+      "tokens": 2339,
+      "hash": "9fc7a2e25d9442a5",
+      "size": 9246,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.143Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Company.php": {
+      "description": "Company: protected static $formats = [, Returns a random catch phrase attribute., Returns a random catch phrase verb., catchPhrase + 1 more",
+      "tokens": 940,
+      "hash": "e61b7a187b278d23",
+      "size": 3588,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.143Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/DateTime.php": {
+      "description": "Czech months and days without setting locale",
+      "tokens": 456,
+      "hash": "0deff3f34585851f",
+      "size": 1737,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.144Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Internet.php": {
+      "description": "Declares Internet",
+      "tokens": 85,
+      "hash": "f14ab452ac29c1d7",
+      "size": 317,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.144Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Payment.php": {
+      "description": "International Bank Account Number (IBAN)",
+      "tokens": 182,
+      "hash": "da7c0ed3efd5e2a2",
+      "size": 682,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.144Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Person.php": {
+      "description": "Declares Person",
+      "tokens": 8294,
+      "hash": "09b43e9562a0e09c",
+      "size": 33825,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.145Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/PhoneNumber.php": {
+      "description": "Declares PhoneNumber",
+      "tokens": 70,
+      "hash": "a78e2513411340cb",
+      "size": 262,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.145Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Text.php": {
+      "description": "License: PD old 70",
+      "tokens": 122795,
+      "hash": "c2b1f62cd162d14c",
+      "size": 518867,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.149Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/da_DK/Address.php": {
+      "description": "Declares Address",
+      "tokens": 4244,
+      "hash": "409e80da32c15a28",
+      "size": 16187,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.150Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/da_DK/Company.php": {
+      "description": "Company: protected static $formats = [, Generates a P entity number (10 digits).",
+      "tokens": 498,
+      "hash": "39692bb1c8355d35",
+      "size": 1867,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.150Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/da_DK/Internet.php": {
+      "description": "Declares Internet",
+      "tokens": 163,
+      "hash": "bf43d39bac495200",
+      "size": 610,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.150Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/da_DK/Payment.php": {
+      "description": "International Bank Account Number (IBAN)",
+      "tokens": 182,
+      "hash": "2dbc7c4109056858",
+      "size": 682,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.150Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/da_DK/Person.php": {
+      "description": "Declares Person",
+      "tokens": 4321,
+      "hash": "c02b4eb01e5bdc6d",
+      "size": 16297,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.151Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/da_DK/PhoneNumber.php": {
+      "description": "Declares PhoneNumber",
+      "tokens": 91,
+      "hash": "1dfe4e61db2d090c",
+      "size": 340,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.151Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/DateTime.php": {
+      "description": "DateTime: protected static function getMaxTimestamp($max = ', Get a datetime object for a date between January 1, Get a datetime object for a date ...",
+      "tokens": 3303,
+      "hash": "df41d4a2b5bb360d",
+      "size": 12385,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.151Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/File.php": {
+      "description": "MIME types from the apache.org file. Some types are truncated.",
+      "tokens": 6856,
+      "hash": "3d3a8ee69ed4d31c",
+      "size": 25707,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.152Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/HtmlLorem.php": {
+      "description": "HtmlLorem: randomHtml",
+      "tokens": 2727,
+      "hash": "d6f81a5f0899c270",
+      "size": 10223,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.152Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Image.php": {
+      "description": "Depends on image generation from http://lorempixel.com/",
+      "tokens": 1638,
+      "hash": "f6aa336f249c27ec",
+      "size": 6140,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.153Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Internet.php": {
+      "description": "Internet: protected static $localIpBlocks = [, final public function safeEmail(), companyEmail, freeEmailDomain + 11 more",
+      "tokens": 4454,
+      "hash": "061911374a37ff7c",
+      "size": 17580,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.153Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Lorem.php": {
+      "description": "Lorem: word, Generate an array of random words, Generate a random sentence, Generate an array of sentences + 3 more",
+      "tokens": 2103,
+      "hash": "bad1381ed0e58dfa",
+      "size": 7884,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.154Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Medical.php": {
+      "description": "Medical: bloodType, bloodRh, bloodGroup",
+      "tokens": 173,
+      "hash": "5bc126898eececde",
+      "size": 648,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.154Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Miscellaneous.php": {
+      "description": "Miscellaneous: On date of 2017-03-26, md5, sha1, sha256 + 1 more",
+      "tokens": 3607,
+      "hash": "5741bfb5523aa7e9",
+      "size": 13526,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.154Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Payment.php": {
+      "description": "Payment: protected static $cardParams = [, Returns the String of a credit card number., creditCardExpirationDate, creditCardExpirationDateString + ...",
+      "tokens": 2845,
+      "hash": "ef6948fbaf05239b",
+      "size": 10667,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.155Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Person.php": {
+      "description": "Person: name, firstName, firstNameMale, firstNameFemale + 4 more",
+      "tokens": 883,
+      "hash": "dc61aad37efd5211",
+      "size": 3311,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.155Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/PhoneNumber.php": {
+      "description": "PhoneNumber: protected static $e164Formats = [, e164PhoneNumber, International Mobile Equipment Identity (IMEI)",
+      "tokens": 1761,
+      "hash": "85cf2634b8aa67a0",
+      "size": 6602,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.155Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Text.php": {
+      "description": "Generate a text string by the Markov chain algorithm.",
+      "tokens": 1816,
+      "hash": "1fef03e63db04bfd",
+      "size": 6808,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.156Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/UserAgent.php": {
+      "description": "Possible processors on Linux",
+      "tokens": 2310,
+      "hash": "83d3805f0bca7047",
+      "size": 8662,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.157Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/Provider/Uuid.php": {
+      "description": "Generate name based md5 UUID (version 3).",
+      "tokens": 486,
+      "hash": "a3bc6c9287d77592",
+      "size": 1819,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.157Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/UniqueGenerator.php": {
+      "description": "Proxy for other generators that returns only unique values.",
+      "tokens": 623,
+      "hash": "eb63b88b5010c002",
+      "size": 2336,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.157Z",
+      "source": "scan"
+    },
+    "vendor/fakerphp/faker/src/Faker/ValidGenerator.php": {
+      "description": "Proxy for other generators, to return only valid values. Works with",
+      "tokens": 568,
+      "hash": "78040fa7126c6b7d",
+      "size": 2130,
+      "mtimeMs": 1704167168000,
+      "updatedAt": "2026-08-03T17:57:08.157Z",
+      "source": "scan"
+    },
+    "vite.config.js": {
+      "description": "Vite build configuration",
+      "tokens": 89,
+      "hash": "330743eb5df510ca",
+      "size": 310,
+      "mtimeMs": 1714225678032.3823,
+      "updatedAt": "2026-08-03T17:57:08.159Z",
+      "source": "scan"
+    }
+  }
+}

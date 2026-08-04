@@ -67,7 +67,7 @@
                     <!-- Table for displaying bookings -->
                 </div>
             </div>
-            <table class="table mt-5">
+            <table class="table mt-5 bg-gray-800">
                 <thead>
                     <tr>
                         <th class="text-white">#</th>

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.table.bg-gray-800 {
+    background-color: #1f2937 !important;
+}
+
+.table.bg-gray-800 thead,
+.table.bg-gray-800 tbody,
+.table.bg-gray-800 tr,
+.table.bg-gray-800 th,
+.table.bg-gray-800 td {
+    background-color: #1f2937 !important;
+}

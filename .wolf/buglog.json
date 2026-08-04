@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "bugs": [
+    {
+      "id": "bug-001",
+      "timestamp": "2026-08-04T16:40:00Z",
+      "error_message": "Bootstrap/Tailwind styling not loading on @vite pages (dashboard, login, etc.); pages render unstyled. Assets requested from http://[::1]:5173/ that never load.",
+      "file": "public/hot",
+      "root_cause": "A stale public/hot file was left behind from a previous Vite dev server run (likely crashed or stopped without cleanup). Laravel checks for this file to decide whether to point @vite at the dev server or the built manifest. With the file present but Vite not running, every @vite page referenced missing assets on :5173, so Bootstrap never loaded. The welcome page worked only because it uses an inline <style> block instead of @vite.",
+      "fix": "Removed the stale public/hot file. Laravel now falls back to public/build/manifest.json (built assets include Bootstrap 5.3 CSS + JS and Tailwind). To develop with hot reload, run `npm run dev` (it recreates public/hot); when done, stopping Vite cleanly removes it.",
+      "tags": ["vite", "assets", "bootstrap", "tailwind", "stale-file", "css-not-loading"],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-08-04T16:40:00Z"
+    }
+  ]
+}
