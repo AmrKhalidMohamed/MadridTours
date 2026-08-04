@@ -17,8 +17,8 @@ RUN apt-get update && apt-get install -y \
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install PHP extensions
-RUN docker-php-ext-install pdo_sqlite sqlite3 mbstring exif pcntl bcmath gd
+# Install PHP extensions (pdo_sqlite already included in base image)
+RUN docker-php-ext-install mbstring exif pcntl bcmath gd
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
