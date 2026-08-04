@@ -119,7 +119,7 @@
 - `auth.php` (~1075 tok)
 - `cache.php` (~914 tok)
 - `cors.php` (~226 tok)
-- `database.php` (~1625 tok)
+- `database.php` — Normalizes `DB_CONNECTION` to lowercase for case-insensitive deploy envs (~1625 tok)
 - `filesystems.php` (~632 tok)
 - `logging.php` (~1150 tok)
 - `mail.php` — Declares of (~906 tok)
@@ -501,14 +501,14 @@
 
 - `AbstractField.php` — Abstract CRON expression field. (~2638 tok)
 - `CronExpression.php` — CRON expression parser that can determine whether or not a CRON expression is (~5503 tok)
-- `DayOfMonthField.php` — Day of month field.  Allows: * , / - ? L W. (~1303 tok)
-- `DayOfWeekField.php` — Day of week field.  Allows: * / , - ? L #. (~1536 tok)
+- `DayOfMonthField.php` — Day of month field. Allows: \* , / - ? L W. (~1303 tok)
+- `DayOfWeekField.php` — Day of week field. Allows: \* / , - ? L #. (~1536 tok)
 - `FieldFactory.php` — CRON field factory implementing a flyweight factory. (~375 tok)
 - `FieldFactoryInterface.php` — Interface: FieldFactoryInterface (1 methods) (~33 tok)
 - `FieldInterface.php` — CRON field interface. (~354 tok)
-- `HoursField.php` — Hours field.  Allows: * , / -. (~1894 tok)
-- `MinutesField.php` — Minutes field.  Allows: * , / -. (~721 tok)
-- `MonthField.php` — Month field.  Allows: * , / -. (~357 tok)
+- `HoursField.php` — Hours field. Allows: \* , / -. (~1894 tok)
+- `MinutesField.php` — Minutes field. Allows: \* , / -. (~721 tok)
+- `MonthField.php` — Month field. Allows: \* , / -. (~357 tok)
 
 ## vendor/egulias/email-validator/
 
@@ -629,7 +629,7 @@
 - `QuotedPart.php` — Declares QuotedPart (~98 tok)
 - `QuotedString.php` — Declares QuotedString (~93 tok)
 - `TLD.php` — Declares TLD (~52 tok)
-- `Warning.php` — Warning: public const CODE = 0;, code, RFCNumber, __toString (~210 tok)
+- `Warning.php` — Warning: public const CODE = 0;, code, RFCNumber, \_\_toString (~210 tok)
 
 ## vendor/fakerphp/faker/
 
@@ -710,7 +710,7 @@
 ## vendor/fakerphp/faker/src/Faker/ORM/CakePHP/
 
 - `ColumnTypeGuesser.php` — ColumnTypeGuesser: guessFormat (~593 tok)
-- `EntityPopulator.php` — EntityPopulator: __get, __set, mergeColumnFormattersWith, mergeModifiersWith + 4 more (~1227 tok)
+- `EntityPopulator.php` — EntityPopulator: **get, **set, mergeColumnFormattersWith, mergeModifiersWith + 4 more (~1227 tok)
 - `Populator.php` — Populator: getGenerator, getGuessers, removeGuesser, addGuesser + 2 more (~672 tok)
 
 ## vendor/fakerphp/faker/src/Faker/ORM/Doctrine/

@@ -1,17 +1,44 @@
 {
-  "version": 1,
-  "bugs": [
-    {
-      "id": "bug-001",
-      "timestamp": "2026-08-04T16:40:00Z",
-      "error_message": "Bootstrap/Tailwind styling not loading on @vite pages (dashboard, login, etc.); pages render unstyled. Assets requested from http://[::1]:5173/ that never load.",
-      "file": "public/hot",
-      "root_cause": "A stale public/hot file was left behind from a previous Vite dev server run (likely crashed or stopped without cleanup). Laravel checks for this file to decide whether to point @vite at the dev server or the built manifest. With the file present but Vite not running, every @vite page referenced missing assets on :5173, so Bootstrap never loaded. The welcome page worked only because it uses an inline <style> block instead of @vite.",
-      "fix": "Removed the stale public/hot file. Laravel now falls back to public/build/manifest.json (built assets include Bootstrap 5.3 CSS + JS and Tailwind). To develop with hot reload, run `npm run dev` (it recreates public/hot); when done, stopping Vite cleanly removes it.",
-      "tags": ["vite", "assets", "bootstrap", "tailwind", "stale-file", "css-not-loading"],
-      "related_bugs": [],
-      "occurrences": 1,
-      "last_seen": "2026-08-04T16:40:00Z"
-    }
-  ]
+    "version": 1,
+    "bugs": [
+        {
+            "id": "bug-001",
+            "timestamp": "2026-08-04T16:40:00Z",
+            "error_message": "Bootstrap/Tailwind styling not loading on @vite pages (dashboard, login, etc.); pages render unstyled. Assets requested from http://[::1]:5173/ that never load.",
+            "file": "public/hot",
+            "root_cause": "A stale public/hot file was left behind from a previous Vite dev server run (likely crashed or stopped without cleanup). Laravel checks for this file to decide whether to point @vite at the dev server or the built manifest. With the file present but Vite not running, every @vite page referenced missing assets on :5173, so Bootstrap never loaded. The welcome page worked only because it uses an inline <style> block instead of @vite.",
+            "fix": "Removed the stale public/hot file. Laravel now falls back to public/build/manifest.json (built assets include Bootstrap 5.3 CSS + JS and Tailwind). To develop with hot reload, run `npm run dev` (it recreates public/hot); when done, stopping Vite cleanly removes it.",
+            "tags": [
+                "vite",
+                "assets",
+                "bootstrap",
+                "tailwind",
+                "stale-file",
+                "css-not-loading"
+            ],
+            "related_bugs": [],
+            "occurrences": 1,
+            "last_seen": "2026-08-04T16:40:00Z"
+        },
+        {
+            "id": "bug-002",
+            "timestamp": "2026-08-04T19:26:00Z",
+            "error_message": "Render deploy failed during startup with 'Database connection [SQLite] not configured.' after php artisan config:cache and php artisan migrate --force.",
+            "file": "config/database.php",
+            "root_cause": "The application read DB_CONNECTION directly from the environment, and the deploy environment could supply SQLite with mixed or uppercase casing. Laravel connection keys are case-sensitive, so 'SQLite' did not match the configured 'sqlite' connection.",
+            "fix": "Normalized DB_CONNECTION with strtolower() in config/database.php and config/queue.php so related config consumers resolve to the actual sqlite connection key before config caching and migration.",
+            "tags": [
+                "render",
+                "deploy",
+                "laravel",
+                "sqlite",
+                "config-cache",
+                "environment",
+                "case-sensitivity"
+            ],
+            "related_bugs": ["bug-001"],
+            "occurrences": 1,
+            "last_seen": "2026-08-04T19:26:00Z"
+        }
+    ]
 }

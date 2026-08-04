@@ -10,27 +10,32 @@
 
 - Fixed `trustProxies()` call order in `bootstrap/app.php` (Laravel 11) — `php artisan serve` now boots. `trustProxies()` must come before `withMiddleware()`/`withExceptions()`.
 - Fixed missing Bootstrap/Tailwind styling on all `@vite` pages (dashboard, login, register, customers/tours/bookings/images). Root cause: stale `public/hot` file left from a crashed Vite dev server run; Laravel pointed `@vite` at `http://[::1]:5173/` which never loaded. Removed the stale file; pages now use built assets in `public/build/manifest.json`.
+- Fixed Render startup failure caused by mixed-case `DB_CONNECTION` values. `config/database.php` and `config/queue.php` now lowercase the connection name before Laravel resolves it.
 
 ---
 
 ## 🚀 Next phase
 
-**Goal:** _<what we're building next, in 1 sentence>_
+**Goal:** Verify the Render deploy reaches `apache2-foreground` without the migration step failing.
 
 ### Acceptance criteria
-1. _<concrete user-visible outcome>_
-2. _<...>_
+
+1. Deploy startup completes `php artisan config:cache` and `php artisan migrate --force` without a database connection error.
+2. The app remains configured for SQLite on Render and still boots locally.
 
 ### Files to create / edit
-| Type | File | Content |
-|---|---|---|
-| new | `path/to/file.ts` | _what it does_ |
+
+| Type | File              | Content        |
+| ---- | ----------------- | -------------- |
+| new  | `path/to/file.ts` | _what it does_ |
 
 ### Closed decisions
-- _<choice + reasoning>_
+
+- Render can continue using SQLite for this app; startup code now tolerates case variations in the `DB_CONNECTION` value.
 
 ### Open decisions
-- _<question to ask the user before coding>_
+
+- None.
 
 ---
 
