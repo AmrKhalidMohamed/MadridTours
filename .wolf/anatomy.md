@@ -12,6 +12,7 @@
 - `artisan` — Laravel CLI entry point (~94 tok)
 - `CLAUDE.md` — OpenWolf (~57 tok)
 - `composer.json` — PHP package manifest (~582 tok)
+- `Dockerfile` — Container startup runs storage link guard + migrate/seed on boot (~436 tok)
 - `GEMINI.md` — OpenWolf (~68 tok)
 - `MadridTours.code-workspace` (~23 tok)
 - `package-lock.json` — npm lock file (~28358 tok)
@@ -47,7 +48,7 @@
 - `CustomersController.php` — Display a listing of the resource. (~366 tok)
 - `CustomerViewController.php` — Display a listing of the resource. (~488 tok)
 - `ImageController.php` — Display a listing of the resource. (~307 tok)
-- `ImageViewController.php` — index, store, destroy (~378 tok)
+- `ImageViewController.php` — Uploads to `public` disk; index/store/destroy with path normalization (~378 tok)
 - `ProfileController.php` — Display the user's profile form. (~378 tok)
 - `ToursController.php` — Display a listing of the resource. (~495 tok)
 - `TourViewController.php` — Display a listing of the resource. (~437 tok)
@@ -85,7 +86,7 @@
 
 - `Bookings.php` — Model — 4 fields (~80 tok)
 - `Customers.php` — Model — table: customers, 2 fields (~78 tok)
-- `Images.php` — Model — 2 fields, 1 rels (~94 tok)
+- `Images.php` — Model with `image_url` accessor for legacy/new storage paths (~94 tok)
 - `Tours.php` — Model — 9 fields, 1 rels (~129 tok)
 - `User.php` — The attributes that are mass assignable. (~257 tok)
 

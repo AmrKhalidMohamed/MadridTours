@@ -67,6 +67,7 @@ RUN sed -i 's/Listen 80/Listen 10000/' /etc/apache2/ports.conf
 # Startup script
 RUN echo '#!/bin/bash\n\
     set -e\n\
+    if [ ! -L /var/www/html/public/storage ] && [ ! -e /var/www/html/public/storage ]; then php artisan storage:link; fi\n\
     php artisan config:cache\n\
     php artisan migrate --force --seed\n\
     apache2-foreground' > /start.sh \

@@ -1,7 +1,3 @@
-@php
-    use Illuminate\Support\Facades\Storage;
-@endphp
-
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
@@ -14,16 +10,16 @@
             <div class="dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     <div class="form-area mb-4">
-                        @if(session('success'))
-                        <div class="alert alert-success">
-                            {{ session('success') }}
-                        </div>
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
                         @endif
 
-                        @if(session('error'))
-                        <div class="alert alert-danger">
-                            {{ session('error') }}
-                        </div>
+                        @if (session('error'))
+                            <div class="alert alert-danger">
+                                {{ session('error') }}
+                            </div>
                         @endif
                         <form method="POST" action="{{ route('imagesview.store') }}" enctype="multipart/form-data">
                             @csrf
@@ -51,40 +47,39 @@
             </div>
             <table class="table mt-5 bg-gray-800">
                 <thead>
-                  <tr>
-                    <th scope="col" class="text-white" >#</th>
-                    <th scope="col" class="text-white" >Tour ID</th>
-                    <th scope="col" class="text-white" >Images</th>
-                    <th scope="col" class="text-white" >Action</th>
-                  </tr>
+                    <tr>
+                        <th scope="col" class="text-white">#</th>
+                        <th scope="col" class="text-white">Tour ID</th>
+                        <th scope="col" class="text-white">Images</th>
+                        <th scope="col" class="text-white">Action</th>
+                    </tr>
                 </thead>
                 <tbody>
 
 
-                    @foreach ( $images as $key => $image )
+                    @foreach ($images as $key => $image)
+                        <tr>
+                            <td scope="col" class="text-white">{{ ++$key }}</td>
+                            <td scope="col" class="text-white">{{ $image->tour_id }}</td>
+                            <td scope="col" class="text-white"><img src="{{ $image->image_url }}" width="100px"
+                                    alt="Tour Image"></td>
+                            <td scope="col">
 
-                    <tr>
-                        <td scope="col" class="text-white">{{ ++$key }}</td>
-                        <td scope="col" class="text-white">{{ $image->tour_id }}</td>
-                        <td scope="col" class="text-white"><img src="{{ storage::url($image->image_path) }}" width="100px" alt="Room Image"></td>
-                        <td scope="col">
+                                <form action="{{ route('imagesview.destroy', $image->id) }}" method="POST">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-danger btn-sm ">Delete</button>
+                                </form>
+                            </td>
 
-                        <form action="{{ route('imagesview.destroy', $image->id) }}" method="POST" >
-                         @csrf
-                        @method('DELETE')
-                        <button type="submit" class="btn btn-danger btn-sm ">Delete</button>
-                        </form>
-                        </td>
-
-                      </tr>
-
+                        </tr>
                     @endforeach
 
 
 
 
                 </tbody>
-              </table>
+            </table>
         </div>
     </div>
 </x-app-layout>

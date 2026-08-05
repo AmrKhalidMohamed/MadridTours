@@ -12,17 +12,18 @@
 - Fixed missing Bootstrap/Tailwind styling on all `@vite` pages (dashboard, login, register, customers/tours/bookings/images). Root cause: stale `public/hot` file left from a crashed Vite dev server run; Laravel pointed `@vite` at `http://[::1]:5173/` which never loaded. Removed the stale file; pages now use built assets in `public/build/manifest.json`.
 - Fixed Render startup failure caused by mixed-case `DB_CONNECTION` values. `config/database.php` and `config/queue.php` now lowercase the connection name before Laravel resolves it.
 - Fixed dashboard lockout after database resets. Deploy startup now runs `migrate --seed`, and `AdminSeeder` creates a verified admin account if it is missing.
+- Fixed uploaded image display in dashboard flows by normalizing image storage paths and URL generation, and by guarding storage symlink creation at container startup.
 
 ---
 
 ## 🚀 Next phase
 
-**Goal:** Confirm the container boots with a seeded admin login and reaches `apache2-foreground` cleanly.
+**Goal:** Confirm image uploads and previews work on Render after redeploy.
 
 ### Acceptance criteria
 
-1. Deploy startup completes `php artisan config:cache` and `php artisan migrate --force --seed` without a database connection error.
-2. The dashboard is reachable with the seeded verified admin account after a fresh database boot.
+1. Uploading an image from the dashboard stores the file and displays it correctly in the images table.
+2. Existing records with `public/...` image paths still render correctly.
 
 ### Files to create / edit
 

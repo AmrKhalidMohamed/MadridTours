@@ -17,4 +17,11 @@ class Images extends Model
         'image_path',
         'tour_id'
     ];
+
+    public function getImageUrlAttribute(): string
+    {
+        $path = ltrim((string) preg_replace('/^public\//', '', $this->image_path), '/');
+
+        return asset('storage/' . $path);
+    }
 }

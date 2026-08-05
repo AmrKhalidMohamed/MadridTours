@@ -59,6 +59,26 @@
             "related_bugs": ["bug-002"],
             "occurrences": 1,
             "last_seen": "2026-08-04T19:45:00Z"
+        },
+        {
+            "id": "bug-004",
+            "timestamp": "2026-08-05T09:20:00Z",
+            "error_message": "Uploaded images did not render correctly from the dashboard after manual uploads on Render.",
+            "file": "app/Http/Controllers/ImageViewController.php",
+            "root_cause": "Image upload paths mixed `public/...` storage prefixes with URL generation expectations, and container boot did not guarantee the public/storage symlink required to serve uploaded files.",
+            "fix": "Stored uploads on the `public` disk as `images/...`, added backward-compatible URL generation for legacy `public/...` paths, and updated container startup to create the storage symlink only when missing.",
+            "tags": [
+                "images",
+                "uploads",
+                "storage",
+                "render",
+                "laravel",
+                "symlink",
+                "sqlite"
+            ],
+            "related_bugs": ["bug-003"],
+            "occurrences": 1,
+            "last_seen": "2026-08-05T09:20:00Z"
         }
     ]
 }

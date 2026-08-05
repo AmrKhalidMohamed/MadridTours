@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Rooms;
 use App\Models\Images;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -11,7 +10,8 @@ class ImageViewController extends Controller
 {
 
     protected $image;
-    public function __construct(){
+    public function __construct()
+    {
         $this->image = new Images();
     }
 
@@ -29,7 +29,7 @@ class ImageViewController extends Controller
                 'tour_id' => 'required|exists:tours,id',
             ]);
 
-            $imagePath = $request->file('image')->store('public/images');
+            $imagePath = $request->file('image')->store('images', 'public');
             Images::create([
                 'tour_id' => $request->tour_id,
                 'image_path' => $imagePath,
@@ -41,13 +41,15 @@ class ImageViewController extends Controller
             // Handle the error and return a response
             return redirect()->back()->with('error', 'An error occurred while uploading the image.');
         }
-
     }
     public function destroy(string $id)
     {
         $image = $this->image->find($id);
+        $path = preg_replace('/^public\//', '', $image->image_path);
+
+        Storage::disk('public')->delete($path);
         $image->delete();
-        Storage::delete($image->image_path);
+
         return redirect('imagesview');
     }
 }
