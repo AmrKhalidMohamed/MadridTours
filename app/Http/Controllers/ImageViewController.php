@@ -52,4 +52,21 @@ class ImageViewController extends Controller
 
         return redirect('imagesview');
     }
+
+    public function file(Images $image)
+    {
+        $path = ltrim((string) preg_replace('/^public\//', '', $image->image_path), '/');
+
+        if (Storage::disk('public')->exists($path)) {
+            return response()->file(Storage::disk('public')->path($path));
+        }
+
+        $publicPath = public_path($path);
+
+        if (is_file($publicPath)) {
+            return response()->file($publicPath);
+        }
+
+        abort(404);
+    }
 }

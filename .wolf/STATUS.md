@@ -13,17 +13,18 @@
 - Fixed Render startup failure caused by mixed-case `DB_CONNECTION` values. `config/database.php` and `config/queue.php` now lowercase the connection name before Laravel resolves it.
 - Fixed dashboard lockout after database resets. Deploy startup now runs `migrate --seed`, and `AdminSeeder` creates a verified admin account if it is missing.
 - Fixed uploaded image display in dashboard flows by normalizing image storage paths and URL generation, and by guarding storage symlink creation at container startup.
+- Added route-based image file serving (`imagesview.file`) so uploaded images render without depending on direct `/storage` URL mapping.
 
 ---
 
 ## 🚀 Next phase
 
-**Goal:** Confirm image uploads and previews work on Render after redeploy.
+**Goal:** Confirm image previews load through the `imagesview.file` route on Render after redeploy.
 
 ### Acceptance criteria
 
-1. Uploading an image from the dashboard stores the file and displays it correctly in the images table.
-2. Existing records with `public/...` image paths still render correctly.
+1. Uploading an image from the dashboard stores the file and displays it in the images table using the route-based URL.
+2. Existing records with `public/...` image paths still render correctly through the same route.
 
 ### Files to create / edit
 

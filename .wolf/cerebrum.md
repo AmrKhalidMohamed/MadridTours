@@ -25,6 +25,7 @@
 - [2026-08-04] Normalize `DB_CONNECTION` to lowercase before config resolution when deploy envs may supply mixed-case values. Laravel connection names are case-sensitive.
 - [2026-08-04] If the dashboard requires `verified` authentication, seed a verified admin account during deploy/startup; an unseeded or unverified user row will lock you out even when migrations succeed.
 - [2026-08-05] For file uploads, store on the `public` disk (`store('images', 'public')`) and generate URLs from the same disk. Also ensure container startup creates `public/storage` only when missing to avoid boot failure if the link already exists.
+- [2026-08-05] If production still fails to render uploaded files, serve them through an app route/controller response instead of relying on `/storage` symlink behavior.
 
 ## Decision Log
 

@@ -33,6 +33,7 @@ Route::post('/toursview/{id}', [TourViewController::class, 'update'])->name('tou
 
 Route::resource("/imagesview", ImageViewController::class)->except(['update']);
 Route::post('/imagesview/{id}', [ImageViewController::class, 'update'])->name('imagesview.update');
+Route::get('/images-media/{image}', [ImageViewController::class, 'file'])->name('imagesview.file');
 
 
 require __DIR__ . '/auth.php';

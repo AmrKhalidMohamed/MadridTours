@@ -79,6 +79,25 @@
             "related_bugs": ["bug-003"],
             "occurrences": 1,
             "last_seen": "2026-08-05T09:20:00Z"
+        },
+        {
+            "id": "bug-005",
+            "timestamp": "2026-08-05T10:05:00Z",
+            "error_message": "Images still did not display after upload despite normalized storage paths.",
+            "file": "routes/web.php",
+            "root_cause": "Serving files via direct /storage URL depended on runtime filesystem link/web-server mapping, which can still fail in some Render container states.",
+            "fix": "Added a dedicated image file route (`imagesview.file`) and controller method to stream files directly from storage/app/public (with fallback to public path), then switched model image URLs to this route.",
+            "tags": [
+                "images",
+                "uploads",
+                "render",
+                "laravel",
+                "routing",
+                "storage"
+            ],
+            "related_bugs": ["bug-004"],
+            "occurrences": 1,
+            "last_seen": "2026-08-05T10:05:00Z"
         }
     ]
 }

@@ -243,7 +243,7 @@
 - `api.php` (~193 tok)
 - `auth.php` (~609 tok)
 - `console.php` (~59 tok)
-- `web.php` (~451 tok)
+- `web.php` — App routes incl. `imagesview.file` media endpoint (~451 tok)
 
 ## storage/framework/
 

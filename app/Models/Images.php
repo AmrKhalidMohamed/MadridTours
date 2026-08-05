@@ -20,6 +20,10 @@ class Images extends Model
 
     public function getImageUrlAttribute(): string
     {
+        if ($this->id !== null) {
+            return route('imagesview.file', $this->id);
+        }
+
         $path = ltrim((string) preg_replace('/^public\//', '', $this->image_path), '/');
 
         return asset('storage/' . $path);
