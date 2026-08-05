@@ -101,7 +101,9 @@
                         <td class="text-white">{{ $tour->ArDescription }}</td>
                         <td scope="col">
                             @foreach ($tour->images as $image)
-                                <img src="{{ storage::url($image->image_path) }}" width="100px" alt="Tour Image">
+                                <td scope="col" class="text-white"><img src="{{ $image->image_url }}" width="100px"
+                                    alt="Tour Image"></td>
+                            <td scope="col">
                             @endforeach
                         </td>
 
